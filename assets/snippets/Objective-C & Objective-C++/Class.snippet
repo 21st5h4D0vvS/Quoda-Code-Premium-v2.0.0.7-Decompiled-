@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+    <content><![CDATA[@interface ${1:${filename_no_extension}} : ${2:NSObject}
+{
+	
+}
+@end
+
+@implementation $1
+- (id)init
+{
+	if((self = [super init]))
+	{
+		$0
+	}
+	return self;
+}
+@end]]></content>
+    <tabTrigger>cl</tabTrigger>
+    <language>Objective-C|Objective-C++</language>
+    <description>Defines a new class</description>
+    <name>Class</name>
+</snippet>

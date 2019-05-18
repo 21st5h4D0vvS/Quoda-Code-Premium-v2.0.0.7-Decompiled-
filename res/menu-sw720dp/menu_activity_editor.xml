@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_file" n1:id="@id/menu_editor_file" n1:title="@string/menu_editor_file" n2:showAsAction="ifRoom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n1:id="@id/menu_editor_file_new" n1:title="@string/menu_editor_file_new" />
+            <item n1:id="@id/menu_editor_file_new_from_template" n1:title="@string/menu_editor_file_new_from_template" />
+            <item n1:id="@id/menu_editor_file_save" n1:title="@string/menu_editor_file_save" />
+            <item n1:id="@id/menu_editor_file_save_as" n1:title="@string/menu_editor_file_save_as" />
+            <item n1:id="@id/menu_editor_file_open" n1:title="@string/menu_editor_file_open" />
+            <item n1:id="@id/menu_editor_file_force_syntax" n1:title="@string/menu_editor_file_force_syntax" />
+            <item n1:id="@id/menu_editor_file_line_delimiters" n1:title="@string/menu_editor_file_line_delimiters" />
+            <item n1:id="@id/menu_editor_file_encoding" n1:title="@string/menu_editor_file_encoding" />
+            <item n1:id="@id/menu_editor_file_properties" n1:title="@string/menu_editor_file_properties" />
+        </menu>
+    </item>
+    <item n3:icon="@drawable/ic_action_edit" n3:id="@id/menu_editor_edit" n3:title="@string/menu_editor_edit" n4:showAsAction="ifRoom"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n3:id="@id/menu_editor_edit_comment_out" n3:title="@string/menu_editor_edit_comment_out" />
+            <item n3:id="@id/menu_editor_edit_indent_selection" n3:title="@string/menu_editor_edit_indent_selection" />
+            <item n3:id="@id/menu_editor_edit_unindent_selection" n3:title="@string/menu_editor_edit_unindent_selection" />
+            <item n3:id="@id/menu_editor_edit_goto_line" n3:title="@string/menu_editor_edit_goto_line" />
+            <item n3:id="@id/menu_editor_edit_bookmark_line" n3:title="@string/menu_editor_edit_bookmark_line" />
+            <item n3:id="@id/menu_editor_edit_bookmark_selection" n3:title="@string/menu_editor_edit_bookmark_selection" />
+            <item n3:id="@id/menu_editor_edit_view_bookmarks" n3:title="@string/menu_editor_edit_view_bookmarks" />
+        </menu>
+    </item>
+    <item n5:icon="@drawable/ic_action_find" n5:id="@id/menu_editor_find" n5:title="@string/menu_editor_find" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@drawable/ic_action_tools" n7:id="@id/menu_editor_tools" n7:title="@string/menu_editor_tools" n8:showAsAction="ifRoom"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n7:id="@id/menu_editor_tools_colour_picker" n7:title="@string/menu_editor_tools_colour_picker" />
+            <item n7:id="@id/menu_editor_tools_download_source" n7:title="@string/menu_editor_tools_download_source" />
+            <item n7:id="@id/menu_editor_tools_snippets" n7:title="@string/menu_editor_tools_snippets" />
+            <item n7:id="@id/menu_editor_tools_format_html" n7:title="@string/menu_editor_tools_format_html" />
+        </menu>
+    </item>
+    <item n9:icon="@drawable/ic_action_preview" n9:id="@id/menu_editor_preview" n9:title="@string/menu_editor_preview" n10:showAsAction="ifRoom"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n9:id="@id/menu_editor_preview_quick_preview" n9:title="@string/menu_editor_preview_quick_preview" />
+            <item n9:id="@id/menu_editor_preview_live_preview" n9:title="@string/menu_editor_preview_live_preview" />
+            <item n9:id="@id/menu_editor_preview_in_browser" n9:title="@string/menu_editor_preview_in_browser" />
+        </menu>
+    </item>
+    <item n11:id="@id/menu_editor_settings" n11:title="@string/menu_editor_settings" n12:showAsAction="never"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <item n13:id="@id/menu_editor_feedback" n13:title="@string/menu_editor_feedback" n14:showAsAction="never"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <item n15:id="@id/menu_editor_go_premium" n15:title="@string/menu_editor_go_premium" n16:showAsAction="never"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+</menu>

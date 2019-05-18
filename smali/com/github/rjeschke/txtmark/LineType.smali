@@ -1,0 +1,344 @@
+.class final enum Lcom/github/rjeschke/txtmark/LineType;
+.super Ljava/lang/Enum;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum",
+        "<",
+        "Lcom/github/rjeschke/txtmark/LineType;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum BQUOTE:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum CODE:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum EMPTY:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum FENCED_CODE:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum HEADLINE:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum HEADLINE1:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum HEADLINE2:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum HR:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum OLIST:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum OTHER:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum PLUGIN:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum ULIST:Lcom/github/rjeschke/txtmark/LineType;
+
+.field public static final enum XML:Lcom/github/rjeschke/txtmark/LineType;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 9
+
+    const/4 v8, 0x6
+
+    const/4 v7, 0x4
+
+    const/4 v6, 0x3
+
+    const/4 v5, 0x2
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x0
+
+    const/4 v8, 0x6
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "EMPTY"
+
+    invoke-direct {v0, v1, v3}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->EMPTY:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x0
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "OTHER"
+
+    invoke-direct {v0, v1, v4}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->OTHER:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x6
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "HEADLINE"
+
+    invoke-direct {v0, v1, v5}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->HEADLINE:Lcom/github/rjeschke/txtmark/LineType;
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "HEADLINE1"
+
+    invoke-direct {v0, v1, v6}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->HEADLINE1:Lcom/github/rjeschke/txtmark/LineType;
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "HEADLINE2"
+
+    invoke-direct {v0, v1, v7}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->HEADLINE2:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x5
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "CODE"
+
+    const/4 v2, 0x5
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->CODE:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x1
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "ULIST"
+
+    const/4 v2, 0x6
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->ULIST:Lcom/github/rjeschke/txtmark/LineType;
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "OLIST"
+
+    const/4 v2, 0x7
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->OLIST:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x4
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "BQUOTE"
+
+    const/16 v2, 0x8
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->BQUOTE:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x7
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "HR"
+
+    const/16 v2, 0x9
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->HR:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x0
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "XML"
+
+    const/16 v2, 0xa
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->XML:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x0
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "FENCED_CODE"
+
+    const/16 v2, 0xb
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->FENCED_CODE:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x6
+
+    new-instance v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    const-string v1, "PLUGIN"
+
+    const/16 v2, 0xc
+
+    invoke-direct {v0, v1, v2}, Lcom/github/rjeschke/txtmark/LineType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->PLUGIN:Lcom/github/rjeschke/txtmark/LineType;
+
+    const/4 v8, 0x6
+
+    const/16 v0, 0xd
+
+    new-array v0, v0, [Lcom/github/rjeschke/txtmark/LineType;
+
+    sget-object v1, Lcom/github/rjeschke/txtmark/LineType;->EMPTY:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v1, v0, v3
+
+    sget-object v1, Lcom/github/rjeschke/txtmark/LineType;->OTHER:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v1, v0, v4
+
+    sget-object v1, Lcom/github/rjeschke/txtmark/LineType;->HEADLINE:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v1, v0, v5
+
+    sget-object v1, Lcom/github/rjeschke/txtmark/LineType;->HEADLINE1:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v1, v0, v6
+
+    sget-object v1, Lcom/github/rjeschke/txtmark/LineType;->HEADLINE2:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v1, v0, v7
+
+    const/4 v1, 0x5
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->CODE:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->ULIST:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->OLIST:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->BQUOTE:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->HR:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xa
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->XML:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xb
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->FENCED_CODE:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0xc
+
+    sget-object v2, Lcom/github/rjeschke/txtmark/LineType;->PLUGIN:Lcom/github/rjeschke/txtmark/LineType;
+
+    aput-object v2, v0, v1
+
+    sput-object v0, Lcom/github/rjeschke/txtmark/LineType;->$VALUES:[Lcom/github/rjeschke/txtmark/LineType;
+
+    nop
+
+    return-void
+
+    const/4 v1, 0x6
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    const/4 v0, 0x7
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    nop
+
+    return-void
+
+    const/4 v0, 0x0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/github/rjeschke/txtmark/LineType;
+    .locals 2
+
+    const/4 v1, 0x1
+
+    const/4 v1, 0x4
+
+    const-class v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/github/rjeschke/txtmark/LineType;
+
+    return-object v0
+
+    const/4 v0, 0x3
+.end method
+
+.method public static values()[Lcom/github/rjeschke/txtmark/LineType;
+    .locals 2
+
+    const/4 v1, 0x2
+
+    const/4 v1, 0x6
+
+    sget-object v0, Lcom/github/rjeschke/txtmark/LineType;->$VALUES:[Lcom/github/rjeschke/txtmark/LineType;
+
+    invoke-virtual {v0}, [Lcom/github/rjeschke/txtmark/LineType;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/github/rjeschke/txtmark/LineType;
+
+    return-object v0
+
+    const/4 v0, 0x7
+.end method

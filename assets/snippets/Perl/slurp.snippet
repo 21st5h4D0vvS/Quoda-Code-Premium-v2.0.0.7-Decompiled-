@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+	<content><![CDATA[my \$${1:var};
+{ local \$/ = undef; local *FILE; open FILE, "<${2:file}"; \$$1 = <FILE>; close FILE }
+]]></content>
+	<name>Read File</name>
+	<description>Read File</description>
+	<tabTrigger>slurp</tabTrigger>
+	<language>perl</language>
+</snippet>

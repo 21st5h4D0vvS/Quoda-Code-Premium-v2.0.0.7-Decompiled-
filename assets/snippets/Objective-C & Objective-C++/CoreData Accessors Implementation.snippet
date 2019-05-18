@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+    <content><![CDATA[- (${1:id})${2:attribute}
+{
+	[self willAccessValueForKey:@"$2"];
+	$1 value = [self primitiveValueForKey:@"$2"];
+	[self didAccessValueForKey:@"$2"];
+	return value;
+}
+
+- (void)set$2: ($1)aValue
+{
+	[self willChangeValueForKey:@"$2"];
+	[self setPrimitiveValue:aValue forKey:@"$2"];
+	[self didChangeValueForKey:@"$2"];
+}
+}]]></content>
+    <tabTrigger>cdacc</tabTrigger>
+    <language>Objective-C|Objective-C++</language>
+    <description>CoreData Accessors Implementation</description>
+    <name>CoreData Accessors Implementation</name>
+</snippet>

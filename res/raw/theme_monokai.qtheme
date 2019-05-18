@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+  <properties>
+    <fileversion>1</fileversion>
+    <name>Monokai</name>
+  </properties>
+  
+  <environment>
+    <background>FF272822</background>
+    <caret>FFFFFFFF</caret>
+    <linehighlight>FF3E3D32</linehighlight>
+    <selection>FF757575</selection>
+    <linenumberbackground>FF272822</linenumberbackground>
+    <linenumbertext>FFF8F8F2</linenumbertext>
+    <linenumberbookmarkedbackground>FFD25252</linenumberbookmarkedbackground>
+    <linenumberbookmarkedtext>FFF8F8F2</linenumberbookmarkedtext>
+  </environment>
+  
+  <styles>
+    <style name="normal" color="FFF8F8F2" bold="false" italic="false" />
+    <style name="comment" color="FF75715E" bold="false" italic="true" />
+    <style name="string" color="FFE6DB74" bold="false" italic="false" />
+    
+    <!-- General programming languages -->
+    <style name="number" color="AE81FF" bold="false" italic="false" />
+    <style name="languageconstant" color="FFEFB571" bold="false" italic="false" />
+    <style name="userconstant" color="FF9981DD" bold="false" italic="false" />
+    <style name="variable" color="FFEFC090" bold="false" italic="false" />
+    <style name="keyword" color="FFF92672" bold="false" italic="false" />
+    <style name="type" color="FF66D9EF" bold="false" italic="true" />
+    <style name="class" color="FF66D9EF" bold="false" italic="false" />
+    <style name="function" color="FFA6E22E" bold="false" italic="false" />
+    <style name="operator" color="FFF92672" bold="false" italic="false" />
+    <style name="preprocessor" color="FFBED6FF" bold="false" italic="false" />
+    <style name="escape" color="FF9981FF" bold="false" italic="false" />
+    
+    <!-- For HTML and other markup languages -->
+    <style name="tagname" color="FFF92672" bold="false" italic="false" />
+    <style name="tagattribute" color="FFA6E22E" bold="false" italic="false" />
+    <style name="tagbrace" color="FFF8F8F2" bold="false" italic="false" />
+    
+    <style name="invalid" color="FFD25252" bold="false" italic="false" />
+  </styles>
+</theme>

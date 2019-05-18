@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:background="#fff2f2f2" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="#ffffffff" n1:gravity="center_vertical" n1:id="@id/textView4" n1:background="#ff222222" n1:paddingLeft="12.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/activity_eula_welcome" n1:height="@dimen/actionbar_height" />
+    <LinearLayout n1:id="@id/activity_eula_bottom_panel" n1:paddingLeft="@dimen/activity_eula_content_padding" n1:paddingTop="12.0dip" n1:paddingRight="12.0dip" n1:paddingBottom="12.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true">
+        <Button n1:textColor="#ffffffff" n1:id="@id/activity_eula_agree" n1:background="@drawable/button_eula" n1:paddingLeft="8.0dip" n1:paddingTop="4.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="4.0dip" n1:text="@string/activity_eula_agree" n1:onClick="onAgreeClick" n1:textAllCaps="true" style="?android:buttonStyleSmall" />
+        <Button n1:textColor="#ffffffff" n1:id="@id/activity_eula_cancel" n1:background="@color/quoda_green" n1:paddingLeft="8.0dip" n1:paddingTop="4.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="4.0dip" n1:text="@string/cancel" n1:onClick="onCancelClick" n1:textAllCaps="true" style="?android:buttonStyleSmall" />
+    </LinearLayout>
+    <ScrollView n1:id="@id/scrollView2" n1:fadingEdge="none" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_above="@id/activity_eula_bottom_panel" n1:layout_below="@id/textView4" n1:layout_alignParentLeft="true" n1:layout_alignParentRight="true">
+        <RelativeLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:paddingLeft="@dimen/activity_eula_content_padding" n1:paddingTop="24.0dip" n1:paddingRight="@dimen/activity_eula_content_padding" n1:paddingBottom="24.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/quoda_green" n1:id="@id/activity_eula_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/activity_eula_title" n1:layout_alignParentTop="true" />
+            <TextView n1:textColor="#ff000000" n1:id="@id/activity_eula_eula_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dip" n1:layout_marginBottom="24.0dip" n1:text="@string/eula" n1:layout_below="@id/activity_eula_message" />
+            <TextView n1:textColor="#ff000000" n1:id="@id/activity_eula_message" n1:paddingTop="12.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/activity_eula_instructions" n1:layout_below="@id/activity_eula_title" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

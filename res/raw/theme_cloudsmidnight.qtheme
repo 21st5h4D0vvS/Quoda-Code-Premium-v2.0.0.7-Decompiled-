@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+  <properties>
+    <fileversion>1</fileversion>
+    <name>Clouds Midnight</name>
+  </properties>
+  
+  <environment>
+    <background>FF191919</background>
+    <caret>FF7DA5DC</caret>
+    <linehighlight>FF1E1E1E</linehighlight>
+    <selection>A7CAFF</selection>
+    <linenumberbackground>FF191919</linenumberbackground>
+    <linenumbertext>FF555555</linenumbertext>
+    <linenumberbookmarkedbackground>FF461919</linenumberbookmarkedbackground>
+    <linenumberbookmarkedtext>FFFFFFFF</linenumberbookmarkedtext>
+  </environment>
+  
+  <styles>
+    <style name="normal" color="FF929292" bold="false" italic="false" />
+    <style name="comment" color="FF3C413B" bold="false" italic="false" />
+    <style name="string" color="FF3D7ECD" bold="false" italic="false" />
+    
+    <!-- General programming languages -->
+    <style name="number" color="46A60E" bold="false" italic="false" />
+    <style name="languageconstant" color="FF39946A" bold="false" italic="false" />
+    <style name="userconstant" color="FF929292" bold="false" italic="false" />
+    <style name="variable" color="FF929292" bold="false" italic="false" />
+    <style name="keyword" color="FFca2e2b" bold="false" italic="false" />
+    <style name="type" color="FFca2e2b" bold="false" italic="false" />
+    <style name="class" color="FFca2e2b" bold="false" italic="false" />
+    <style name="function" color="FF929292" bold="false" italic="false" />
+    <style name="operator" color="FF4b4b4b" bold="false" italic="false" />
+    <style name="preprocessor" color="FF556055" bold="false" italic="false" />
+    <style name="escape" color="FFa16580" bold="false" italic="false" />
+    
+    <!-- For HTML and other markup languages -->
+    <style name="tagname" color="FF606060" bold="false" italic="false" />
+    <style name="tagattribute" color="FFa46763" bold="false" italic="false" />
+    <style name="tagbrace" color="FF606060" bold="false" italic="false" />
+    
+    <style name="invalid" color="FF68272e" bold="false" italic="false" />
+  </styles>
+</theme>

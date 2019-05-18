@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/actions" n1:background="#fff1f1f1" n1:padding="0.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_alignParentLeft="true" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/actionbar_snippet_viewer_name" n1:background="@color/actionbar_background" n1:layout_width="fill_parent" n1:layout_height="@dimen/actionbar_height">
+        <EditText n1:textColor="#ffffffff" n1:id="@id/snippet_viewer_name" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:hint="@string/activity_snippet_viewer_name" n1:lines="1" n1:ems="10" n1:inputType="textVisiblePassword|textNoSuggestions" n1:textCursorDrawable="@null" />
+    </LinearLayout>
+    <ScrollView n1:background="#fff1f1f1" n1:layout_width="fill_parent" n1:layout_height="369.0dip" n1:fillViewport="true" n1:layout_weight="0.27" n1:foregroundGravity="top">
+        <EditText n1:textColor="#ff000000" n1:gravity="top" n1:layout_gravity="center|left|top" n1:id="@id/snippet_viewer_contents" n1:layout_width="fill_parent" n1:layout_height="162.0dip" n1:hint="@string/activity_snippet_viewer_content" n1:ems="10" n1:inputType="textVisiblePassword|textMultiLine|textNoSuggestions" n1:imeOptions="flagNoExtractUi" n1:textCursorDrawable="@null" />
+    </ScrollView>
+    <LinearLayout n1:id="@id/actionbar_snippet_viewer_save" n1:background="@color/actionbar_background" n1:layout_width="fill_parent" n1:layout_height="@dimen/actionbar_height">
+        <Button n1:textColor="#ffffffff" n1:id="@id/snippet_viewer_save" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/save" n1:layout_weight="1.0" n1:onClick="onSaveClick" style="@style/Quoda.Button" />
+        <Button n1:textColor="#ffffffff" n1:id="@id/snippet_viewer_cancel" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/cancel" n1:layout_weight="1.0" n1:onClick="onCancelClick" style="@style/Quoda.Button" />
+    </LinearLayout>
+</LinearLayout>

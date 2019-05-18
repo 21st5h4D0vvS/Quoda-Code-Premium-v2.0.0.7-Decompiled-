@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/dialog_props_layout" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_filename" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Filename: file.txt" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_filepath" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Filepath: /sdcard/file.txt" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_filetype" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Filetype: Text" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_base_url" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Base URL: http://www.getquoda.com" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_encoding" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Encoding: UTF-8" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_linebreaks" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Linebreaks: CRLF" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_word_count" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Word Count: 802" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_char_count" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Character Count: 1482" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/dialog_props_line_count" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Line Count: 24" />
+</LinearLayout>

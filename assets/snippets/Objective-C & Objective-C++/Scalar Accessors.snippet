@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+    <content><![CDATA[[- (${1:unsigned int})${2:thing}
+{
+	return ${3:$2};
+}
+
+- (void)set$2:(${1:unsigned int})new$2
+{
+	$3 = new$2;
+}]]></content>
+    <tabTrigger>acc</tabTrigger>
+    <language>Objective-C|Objective-C++</language>
+    <description>Scalar Accessors</description>
+    <name>Scalar Accessors</name>
+</snippet>

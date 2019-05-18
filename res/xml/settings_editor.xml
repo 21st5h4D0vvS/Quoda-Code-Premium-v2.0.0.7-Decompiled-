@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <CheckBoxPreference n1:title="@string/settings_editor_syntaxhighlight" n1:key="syntax_highlighting" n1:defaultValue="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n2:title="@string/settings_editor_codecompletion" n2:key="code_completion" n2:defaultValue="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n3:title="@string/settings_editor_auto_close_quote" n3:key="auto_close_quote" n3:summary="@string/settings_editor_auto_close_quote_summary" n3:defaultValue="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n4:title="@string/settings_editor_auto_close_bracket" n4:key="auto_close_bracket" n4:summary="@string/settings_editor_auto_close_bracket_summary" n4:defaultValue="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n5:title="@string/settings_editor_linenumbers" n5:key="show_line_numbers" n5:defaultValue="true"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n6:title="@string/settings_editor_additional_keys" n6:key="show_additional_keys" n6:summary="@string/settings_editor_additional_keys_summary" n6:defaultValue="true"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n7:title="@string/settings_editor_autoindent" n7:key="autoindent" n7:summary="@string/settings_editor_autoindent_summary" n7:defaultValue="true"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n8:title="@string/settings_editor_word_wrap" n8:key="word_wrap" n8:defaultValue="true"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n9:title="@string/settings_editor_read_only_mode" n9:key="read_only_mode" n9:defaultValue="false"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n10:title="@string/settings_editor_tabs" n10:key="use_spaces" n10:defaultValue="false"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <ListPreference n11:entries="@array/tab_spaces_number" n11:title="@string/settings_editor_number_of_spaces" n11:key="spaces_count" n11:summary="@string/settings_editor_number_of_spaces_summary" n11:dependency="use_spaces" n11:defaultValue="3" n11:dialogTitle="@string/settings_editor_number_of_spaces" n11:entryValues="@array/tab_spaces_number"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

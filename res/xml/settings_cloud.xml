@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/settings_cloud_category_cloud"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <Preference n1:title="@string/settings_cloud_dropbox" n1:key="connect_to_dropbox" n1:summary="@string/settings_cloud_dropbox_connect" />
+        <Preference n1:title="@string/settings_cloud_googledrive" n1:key="connect_to_googledrive" n1:summary="@string/settings_cloud_googledrive_connect" />
+    </PreferenceCategory>
+    <PreferenceCategory n2:title="@string/settings_cloud_category_servers"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <Preference n2:title="@string/settings_cloud_add_server" n2:key="add_server" />
+    </PreferenceCategory>
+</PreferenceScreen>

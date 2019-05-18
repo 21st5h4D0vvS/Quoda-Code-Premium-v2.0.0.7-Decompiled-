@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/activity_editor_root" n1:tag="tablet" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <FrameLayout n1:orientation="vertical" n1:id="@id/panel_left" n1:visibility="gone" n1:layout_width="280.0dip" n1:layout_height="fill_parent" />
+        <View n1:background="#ff000000" n1:layout_width="1.0dip" n1:layout_height="fill_parent" />
+        <FrameLayout n1:id="@id/panel_centre" n1:padding="0.0dip" n1:layout_width="300.0dip" n1:layout_height="fill_parent" />
+        <View n1:background="#ff000000" n1:layout_width="1.0dip" n1:layout_height="fill_parent" />
+        <FrameLayout n1:id="@id/panel_right" n1:padding="0.0dip" n1:visibility="gone" n1:layout_width="300.0dip" n1:layout_height="fill_parent" />
+    </LinearLayout>
+    <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/additional_keys" />
+</LinearLayout>

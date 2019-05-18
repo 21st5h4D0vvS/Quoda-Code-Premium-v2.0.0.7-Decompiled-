@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/activity_tutorial_container" n1:background="@drawable/tutorial_bubble_up" n1:padding="48.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="#ff000000" n1:id="@id/tutorial_popup_title" n1:paddingBottom="8.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Document Switcher" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="#ff000000" n1:id="@id/tutorial_popup_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Touch here to switch between open documents" />
+    <Button n1:textSize="20.0sp" n1:textColor="#ffffffff" n1:id="@id/tutorial_popup_button" n1:background="@drawable/btn_quoda_themed" n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginTop="16.0dip" n1:text="Next" style="?android:buttonStyleSmall" />
+</LinearLayout>

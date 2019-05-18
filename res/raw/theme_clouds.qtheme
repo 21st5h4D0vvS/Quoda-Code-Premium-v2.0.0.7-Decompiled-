@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+  <properties>
+    <fileversion>1</fileversion>
+    <name>Clouds Midnight</name>
+  </properties>
+  
+  <environment>
+    <background>FFFFFFFF</background>
+    <caret>FF000000</caret>
+    <linehighlight>FFfffbd1</linehighlight>
+    <selection>bdd5fc</selection>
+    <linenumberbackground>FFFFFFFF</linenumberbackground>
+    <linenumbertext>FF606060</linenumbertext>
+    <linenumberbookmarkedbackground>FFC52727</linenumberbookmarkedbackground>
+    <linenumberbookmarkedtext>FFFFFFFF</linenumberbookmarkedtext>
+  </environment>
+  
+  <styles>
+    <style name="normal" color="FF000000" bold="false" italic="false" />
+    <style name="comment" color="FFbcc8ba" bold="false" italic="false" />
+    <style name="string" color="FF5d90cd" bold="false" italic="false" />
+    
+    <!-- General programming languages -->
+    <style name="number" color="46a60a" bold="false" italic="false" />
+    <style name="languageconstant" color="39946a" bold="false" italic="false" />
+    <style name="userconstant" color="000000" bold="false" italic="false" />
+    <style name="variable" color="000000" bold="false" italic="false" />
+    <style name="keyword" color="5D90CD" bold="false" italic="false" />
+    <style name="type" color="c52727" bold="false" italic="false" />
+    <style name="class" color="bf78cc" bold="false" italic="false" />
+    <style name="function" color="000000" bold="false" italic="false" />
+    <style name="operator" color="000000" bold="false" italic="false" />
+    <style name="preprocessor" color="C52727" bold="false" italic="false" />
+    <style name="escape" color="bf78cc" bold="false" italic="false" />
+    
+    <!-- For HTML and other markup languages -->
+    <style name="tagname" color="606060" bold="false" italic="false" />
+    <style name="tagattribute" color="606060" bold="false" italic="false" />
+    <style name="tagbrace" color="606060" bold="false" italic="false" />
+    
+    <style name="invalid" color="C52727" bold="false" italic="false" />
+  </styles>
+</theme>

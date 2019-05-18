@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <Preference n1:title="@string/settings_contribute_translate_title" n1:key="translate" n1:summary="@string/settings_contribute_translate_summary"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <intent n1:action="android.intent.action.VIEW" n1:data="https://www.getlocalization.com/quoda" />
+    </Preference>
+    <Preference n2:title="@string/settings_contribute_email_title" n2:key="email" n2:summary="hello@getquoda.com"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <intent n2:action="android.intent.action.VIEW" n2:data="mailto:hello@getquoda.com" />
+    </Preference>
+    <Preference n3:title="@string/settings_contribute_twitter_title" n3:key="follow_twitter" n3:summary="\@QuodaApp"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <intent n3:action="android.intent.action.VIEW" n3:data="https://www.twitter.com/QuodaApp" />
+    </Preference>
+    <Preference n4:title="@string/settings_contribute_googleplus_title" n4:key="follow_googleplus" n4:summary="@string/settings_contribute_googleplus_summary"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <intent n4:action="android.intent.action.VIEW" n4:data="https://www.plus.google.com/communities/114463818207333533672" />
+    </Preference>
+    <Preference n5:title="@string/settings_contribute_instagram" n5:key="follow_instagram" n5:summary="\@quodaapp"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <intent n5:action="android.intent.action.VIEW" n5:data="https://www.instagram.com/quodaapp/" />
+    </Preference>
+    <Preference n6:title="@string/settings_contribute_website_title" n6:key="visit_website" n6:summary="getquoda.com"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <intent n6:action="android.intent.action.VIEW" n6:data="http://www.getquoda.com" />
+    </Preference>
+    <Preference n7:title="@string/settings_contribute_rate_title" n7:key="rate_us" n7:summary="@string/settings_contribute_rate_summary"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <intent n7:action="android.intent.action.VIEW" n7:data="market://details?id=com.henrythompson.quoda" />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <ListPreference n1:entries="@array/syntax_highlighting_themes" n1:title="@string/settings_appearance_theme" n1:key="theme" n1:summary="@string/settings_appearance_theme_summary" n1:defaultValue="@string/default_syntax_highlighting_theme" n1:dialogTitle="@string/settings_appearance_theme" n1:entryValues="@array/syntax_highlighting_themes"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ListPreference n2:entries="@array/fonts" n2:title="@string/settings_appearance_font_style" n2:key="typeface" n2:defaultValue="@string/default_font" n2:dialogTitle="@string/settings_appearance_font_style" n2:entryValues="@array/fonts_values"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <ListPreference n3:entries="@array/font_sizes" n3:title="@string/settings_appearance_font_size" n3:key="font_size" n3:defaultValue="@string/default_font_size" n3:dialogTitle="@string/settings_appearance_font_size" n3:entryValues="@array/font_sizes"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

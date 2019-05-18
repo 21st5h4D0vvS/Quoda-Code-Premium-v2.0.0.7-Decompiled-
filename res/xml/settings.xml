@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers>
+    <header n1:title="@string/settings_header_appearance" n1:summary="@string/settings_header_appearance_summary" n1:fragment="com.henrythompson.quoda.settings.SettingsFragment"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <extra n1:name="settings" n1:value="appearance" />
+    </header>
+    <header n2:title="@string/settings_header_editor" n2:summary="@string/settings_header_editor_summary" n2:fragment="com.henrythompson.quoda.settings.SettingsFragment"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <extra n2:name="settings" n2:value="editor" />
+    </header>
+    <header n3:title="@string/settings_header_files" n3:summary="@string/settings_header_files_summary" n3:fragment="com.henrythompson.quoda.settings.SettingsFragment"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <extra n3:name="settings" n3:value="files" />
+    </header>
+    <header n4:title="@string/settings_header_keybindings" n4:summary="@string/settings_header_keybindings_summary" n4:fragment="com.henrythompson.quoda.settings.SettingsFragment"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <extra n4:name="settings" n4:value="keybindings" />
+    </header>
+    <header n5:title="@string/settings_header_cloud_servers" n5:summary="@string/settings_header_cloud_servers_summary" n5:fragment="com.henrythompson.quoda.settings.SettingsFragment"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <extra n5:name="settings" n5:value="cloud" />
+    </header>
+    <header n6:title="@string/settings_header_contribute" n6:summary="@string/settings_header_contribute_summary" n6:fragment="com.henrythompson.quoda.settings.SettingsFragment"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <extra n6:name="settings" n6:value="contribute" />
+    </header>
+    <header n7:title="@string/settings_header_about" n7:summary="@string/settings_header_about_summary"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <intent n7:targetPackage="com.henrythompson.quoda" n7:action="android.intent.action.VIEW" n7:targetClass="com.henrythompson.quoda.AboutActivity" />
+    </header>
+    <header n8:title="@string/settings_header_upgrade" n8:summary="@string/settings_header_upgrade_summary"
+      xmlns:n8="http://schemas.android.com/apk/res/android">
+        <intent n8:targetPackage="com.henrythompson.quoda" n8:action="android.intent.action.VIEW" n8:targetClass="com.henrythompson.quoda.UpgradeActivity" />
+    </header>
+</preference-headers>

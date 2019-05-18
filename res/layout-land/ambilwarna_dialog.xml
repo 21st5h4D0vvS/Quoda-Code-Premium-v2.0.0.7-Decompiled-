@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="center" n1:id="@id/ambilwarna_viewContainer" n1:paddingLeft="@dimen/ambilwarna_spacer" n1:paddingTop="@dimen/ambilwarna_spacer" n1:paddingRight="@dimen/ambilwarna_spacer" n1:paddingBottom="0.0dip" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/ambilwarna_state" n1:paddingRight="@dimen/ambilwarna_spacer" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+        <View n1:id="@id/ambilwarna_warnaBaru" n1:background="#ffaaaaff" n1:layout_width="60.0dip" n1:layout_height="30.0dip" />
+    </LinearLayout>
+    <yuku.ambilwarna.AmbilWarnaKotak n1:id="@id/ambilwarna_viewSatBri" n1:layout_width="@dimen/ambilwarna_hsvWidth" n1:layout_height="@dimen/ambilwarna_hsvHeight" n1:layout_toRightOf="@id/ambilwarna_state" n1:layerType="software" />
+    <View n1:layout_width="@dimen/ambilwarna_spacer" n1:layout_height="@dimen/ambilwarna_spacer" n1:layout_below="@id/ambilwarna_viewSatBri" />
+    <ImageView n1:id="@id/ambilwarna_viewHue" n1:layout_width="@dimen/ambilwarna_hueWidth" n1:layout_height="@dimen/ambilwarna_hsvHeight" n1:layout_marginLeft="@dimen/ambilwarna_spacer" n1:src="@drawable/ambilwarna_hue" n1:scaleType="fitXY" n1:layout_toRightOf="@id/ambilwarna_viewSatBri" />
+    <ImageView n1:id="@id/ambilwarna_cursor" n1:layout_width="9.0dip" n1:layout_height="9.0dip" n1:src="@drawable/ambilwarna_cursor" n1:scaleType="matrix" />
+    <ImageView n1:id="@id/ambilwarna_target" n1:layout_width="15.0dip" n1:layout_height="15.0dip" n1:src="@drawable/ambilwarna_target" n1:scaleType="matrix" />
+</RelativeLayout>

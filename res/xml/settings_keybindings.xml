@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/settings_keybindings_category_special_keys"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n1:title="@string/settings_keybindings_use_volume_up" n1:key="volume_up_as_ctrl" n1:summary="@string/settings_keybindings_use_volume_up_summary" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/settings_keybindings_use_volume_down" n1:key="volume_down_as_alt" n1:summary="@string/settings_keybindings_use_volume_down_summary" n1:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory n2:title="@string/settings_keybindings_category_editor"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_bookmarks" n2:key="keybinding_bookmarks" n2:dialogTitle="@string/settings_keybindings_bookmarks" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_bookmark_line" n2:key="keybinding_bookmark_line" n2:dialogTitle="@string/settings_keybindings_bookmark_line" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_bookmark_selected_line" n2:key="keybinding_bookmark_selected_line" n2:dialogTitle="@string/settings_keybindings_bookmark_selected_line" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_copy" n2:key="keybinding_copy" n2:dialogTitle="@string/settings_keybindings_copy" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_cut" n2:key="keybinding_cut" n2:dialogTitle="@string/settings_keybindings_cut" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_find" n2:key="keybinding_find" n2:dialogTitle="@string/settings_keybindings_find" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_force_syntax" n2:key="keybinding_force_syntax" n2:dialogTitle="@string/settings_keybindings_force_syntax" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_goto_line" n2:key="keybinding_goto_line" n2:dialogTitle="@string/settings_keybindings_goto_line" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_next_word" n2:key="keybinding_next_word" n2:dialogTitle="@string/settings_keybindings_next_word" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_paste" n2:key="keybinding_paste" n2:dialogTitle="@string/settings_keybindings_paste" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_previous_word" n2:key="keybinding_previous_word" n2:dialogTitle="@string/settings_keybindings_previous_word" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_redo" n2:key="keybinding_redo" n2:dialogTitle="@string/settings_keybindings_redo" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_select_all" n2:key="keybinding_select_all" n2:dialogTitle="@string/settings_keybindings_select_all" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n2:title="@string/settings_keybindings_undo" n2:key="keybinding_undo" n2:dialogTitle="@string/settings_keybindings_undo" n2:dialogLayout="@layout/dialog_keybinding_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory n3:title="@string/settings_keybindings_category_files"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_close_document" n3:key="keybinding_close_document" n3:dialogTitle="@string/settings_keybindings_close_document" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_encoding" n3:key="keybinding_encoding" n3:dialogTitle="@string/settings_keybindings_encoding" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_linebreaks" n3:key="keybinding_linebreaks" n3:dialogTitle="@string/settings_keybindings_linebreaks" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_new" n3:key="keybinding_new" n3:dialogTitle="@string/settings_keybindings_new" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_new" n3:key="keybinding_new_from_template" n3:dialogTitle="@string/settings_keybindings_new_from_template" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_open" n3:key="keybinding_open" n3:dialogTitle="@string/settings_keybindings_open" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_properties" n3:key="keybinding_properties" n3:dialogTitle="@string/settings_keybindings_properties" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_save" n3:key="keybinding_save" n3:dialogTitle="@string/settings_keybindings_save" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_save_all" n3:key="keybinding_save_all" n3:dialogTitle="@string/settings_keybindings_save_all" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n3:title="@string/settings_keybindings_save_as" n3:key="keybinding_save_as" n3:dialogTitle="@string/settings_keybindings_save_as" n3:dialogLayout="@layout/dialog_keybinding_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory n4:title="@string/settings_keybindings_category_document_navigation"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <com.henrythompson.quoda.settings.KeybindingPreference n4:title="@string/settings_keybindings_next_file" n4:key="keybinding_next_file" n4:dialogTitle="@string/settings_keybindings_next_file" n4:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n4:title="@string/settings_keybindings_previous_file" n4:key="keybinding_previous_file" n4:dialogTitle="@string/settings_keybindings_previous_file" n4:dialogLayout="@layout/dialog_keybinding_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory n5:title="@string/settings_keybindings_category_tools"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <com.henrythompson.quoda.settings.KeybindingPreference n5:title="@string/settings_keybindings_color_picker" n5:key="keybinding_color_picker" n5:dialogTitle="@string/settings_keybindings_color_picker" n5:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n5:title="@string/settings_keybindings_download_source" n5:key="keybinding_download_source" n5:dialogTitle="@string/settings_keybindings_download_source" n5:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n5:title="@string/settings_keybindings_snippets" n5:key="keybinding_snippets" n5:dialogTitle="@string/settings_keybindings_snippets" n5:dialogLayout="@layout/dialog_keybinding_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory n6:title="@string/settings_keybindings_category_preview"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <com.henrythompson.quoda.settings.KeybindingPreference n6:title="@string/settings_keybindings_preview" n6:key="keybinding_preview" n6:dialogTitle="@string/settings_keybindings_preview" n6:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n6:title="@string/settings_keybindings_preview_in_browser" n6:key="keybinding_preview_in_browser" n6:dialogTitle="@string/settings_keybindings_preview_in_browser" n6:dialogLayout="@layout/dialog_keybinding_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory n7:title="@string/settings_keybindings_category_menu"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <com.henrythompson.quoda.settings.KeybindingPreference n7:title="@string/settings_keybindings_settings" n7:key="keybinding_settings" n7:dialogTitle="@string/settings_keybindings_settings" n7:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n7:title="@string/settings_keybindings_show_edit" n7:key="keybinding_show_edit_menu" n7:dialogTitle="@string/settings_keybindings_show_edit" n7:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n7:title="@string/settings_keybindings_show_file" n7:key="keybinding_show_file_menu" n7:dialogTitle="@string/settings_keybindings_show_file" n7:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n7:title="@string/settings_keybindings_show_insert" n7:key="keybinding_show_insert_menu" n7:dialogTitle="@string/settings_keybindings_show_insert" n7:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n7:title="@string/settings_keybindings_show_menu" n7:key="keybinding_show_menu" n7:dialogTitle="@string/settings_keybindings_show_menu" n7:dialogLayout="@layout/dialog_keybinding_preference" />
+        <com.henrythompson.quoda.settings.KeybindingPreference n7:title="@string/settings_keybindings_show_tools_menu" n7:key="keybinding_show_tools_menu" n7:dialogTitle="@string/settings_keybindings_show_tools_menu" n7:dialogLayout="@layout/dialog_keybinding_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

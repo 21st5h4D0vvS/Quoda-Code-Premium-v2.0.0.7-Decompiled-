@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+	<content><![CDATA[class ${1:ClassName}(${2:object}):
+	${3:"""docstring for $1}
+		def __init__(self${4:, ${5:arg}}):
+		${6:super($1, self).__init__()}
+${		self.$2 = $2
+}$0]]></content>
+	<name>New Class</name>
+	<description>New Class</description>
+	<tabTrigger>class</tabTrigger>
+	<language>python</language>
+</snippet>

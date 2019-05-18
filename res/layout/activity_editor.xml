@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/activity_editor_root" n1:tag="default" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <fragment n1:name="com.henrythompson.quoda.EditorPanel" n1:id="@id/panel_editor_root" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+    <include n1:id="@id/editor_findbar" n1:visibility="gone" layout="@layout/findbar" />
+    <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/additional_keys" />
+</LinearLayout>

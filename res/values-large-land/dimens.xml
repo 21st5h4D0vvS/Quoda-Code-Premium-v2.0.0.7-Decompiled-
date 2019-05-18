@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_button_width">50.0dip</dimen>
+    <dimen name="actionbar_height">50.0dip</dimen>
+    <dimen name="activity_eula_content_padding">100.0dip</dimen>
+</resources>

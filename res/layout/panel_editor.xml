@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.henrythompson.quoda.widget.FullWidthDrawerLayout n1:id="@id/panel_editor_root" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/panel_editor_content_frame" n1:background="@null" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.henrythompson.quoda.CodeView n1:textSize="17.0sp" n1:typeface="monospace" n1:id="@id/editor_codeEditor" n1:background="#ffe7e7e7" n1:padding="8.0dip" n1:scrollbars="none" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:layout_above="@id/actionbar_bottom" n1:layout_below="@id/actionbar_top" n1:layout_alignParentLeft="true" n1:layout_alignParentRight="true" n1:inputType="textMultiLine|textNoSuggestions" n1:imeOptions="flagNoExtractUi" n1:layerType="software" n1:textCursorDrawable="@null">
+            <requestFocus />
+        </com.henrythompson.quoda.CodeView>
+        <FrameLayout n1:id="@id/actionbar_top" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <include n1:id="@id/editor_actionbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/actionbar_editor" />
+            <include n1:id="@id/editor_findbar" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/findbar" />
+        </FrameLayout>
+        <ProgressBar n1:id="@id/panel_editor_progressbar" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/Quoda.ProgressBar" />
+        <com.henrythompson.quoda.ScrollerWidget n1:id="@id/scroller1" n1:layout_width="30.0dip" n1:layout_height="fill_parent" n1:layout_above="@id/actionbar_bottom" n1:layout_below="@id/actionbar_top" n1:layout_alignParentRight="true" />
+        <FrameLayout n1:id="@id/actionbar_bottom" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" />
+        <View n1:id="@id/view1" n1:background="@drawable/actionbar_dropshadow" n1:layout_width="wrap_content" n1:layout_height="8.0dip" n1:layout_below="@id/actionbar_top" n1:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <fragment n1:name="com.henrythompson.quoda.documentSwitcher.DocumentSwitcherFragment" n1:layout_gravity="left" n1:id="@id/panel_editor_left_drawer" n1:background="@null" n1:layout_width="320.0dip" n1:layout_height="fill_parent" />
+    <fragment n1:name="com.henrythompson.quoda.FileBrowserPanel" n1:layout_gravity="right" n1:id="@id/panel_editor_right_drawer" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</com.henrythompson.quoda.widget.FullWidthDrawerLayout>

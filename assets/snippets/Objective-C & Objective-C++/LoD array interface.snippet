@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+    <content><![CDATA[- (void)addObjectTo${1:Things}:(${2:id})anObject;
+- (void)insertObject:($2)anObject in$1AtIndex:(unsigned int)i;
+- ($2)objectIn$1AtIndex:(unsigned int)i;
+- (unsigned int)indexOfObjectIn$1:($2)anObject;
+- (void)removeObjectFrom$1AtIndex:(unsigned int)i;
+- (unsigned int)countOf$1;
+- (NSArray *)$1;
+- (void)set$1:(NSArray *)new$1;]]></content>
+    <tabTrigger>arracc</tabTrigger>
+    <language>Objective-C|Objective-C++</language>
+    <description>LoD array interface</description>
+    <name>LoD array interface</name>
+</snippet>

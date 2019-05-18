@@ -1,0 +1,366 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.henrythompson.quoda.v2.0.0.7-Premium-_HiAppHere.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+- snippet
+- 'assets/snippets/C & C++/#ifndef ... #define ... #endif.snippet'
+- assets/snippets/C & C++/v.begin v.end.snippet
+- assets/snippets/HTML/DocType XHTML 1.1.snippet
+- assets/snippets/HTML/Doctype HTML 4.01 Strict.snippet
+- assets/snippets/HTML/Doctype HTML 4.01 Transitional.snippet
+- assets/snippets/HTML/Doctype XHTML 1.0 Frameset.snippet
+- assets/snippets/HTML/Doctype XHTML 1.0 Strict.snippet
+- assets/snippets/HTML/Doctype XHTML 1.0 Transitional.snippet
+- assets/snippets/HTML/IE Conditional Comment- Internet Explorer 5.0 only.snippet
+- assets/snippets/HTML/IE Conditional Comment- Internet Explorer 5.5 only.snippet
+- tmSnippet
+- assets/snippets/Java/import junit.framework.TestCase.snippet
+- assets/snippets/Java/java.beans..snippet
+- assets/snippets/Java/java.io..snippet
+- assets/snippets/Java/java.math..snippet
+- assets/snippets/Java/java.net..snippet
+- assets/snippets/Java/java.util..snippet
+- assets/snippets/Python/Inside Class Def- Insert (...).snippet
+- assets/snippets/Python/Inside Function- Insert (...).snippet
+- assets/snippets/Python/Inside String- Insert ....snippet
+- assets/snippets/Ruby/Marshal.dump(obj, file)  (Md).snippet
+- assets/snippets/Ruby/Marshal.load(obj)  (Ml).snippet
+- assets/snippets/Ruby/Wrap in Begin ... Rescue ... End.snippet
+- assets/snippets/Ruby/YAML.dump(.., file).snippet
+- assets/snippets/Ruby/YAML.load(file).snippet
+- assets/snippets/Ruby/assert(..).snippet
+- assets/snippets/Ruby/assert_in_delta(..).snippet
+- assets/snippets/Ruby/assert_instance_of(..).snippet
+- assets/snippets/Ruby/assert_kind_of(..).snippet
+- assets/snippets/Ruby/assert_match(..).snippet
+- assets/snippets/Ruby/assert_nil(..).snippet
+- assets/snippets/Ruby/assert_no_match(..) .snippet
+- assets/snippets/Ruby/assert_not_equal(..).snippet
+- assets/snippets/Ruby/assert_not_nil(..).snippet
+- assets/snippets/Ruby/assert_not_same(..)  (asns).snippet
+- assets/snippets/Ruby/assert_nothing_raised(..) { .. }.snippet
+- assets/snippets/Ruby/assert_nothing_thrown { .. }.snippet
+- assets/snippets/Ruby/assert_operator(..).snippet
+- assets/snippets/Ruby/assert_raise(..).snippet
+- assets/snippets/Ruby/assert_respond_to(..).snippet
+- assets/snippets/Ruby/assert_same(..).snippet
+- assets/snippets/Ruby/assert_send(..).snippet
+- assets/snippets/Ruby/assert_throws(..).snippet
+- assets/snippets/Ruby/class .. end.snippet
+- assets/snippets/Ruby/class .. initialize .. end.snippet
+- assets/snippets/Ruby/class .. instance_methods .. undef .. initialize .. end  (class).snippet
+- assets/snippets/Ruby/deep_copy(..).snippet
+- assets/snippets/Ruby/def method_missing .. end.snippet
+- assets/snippets/Ruby/def self .. end.snippet
+- assets/snippets/Ruby/def test_ .. end.snippet
+- assets/snippets/Ruby/flunk(..).snippet
+- assets/snippets/Ruby/include Enumerable ..  (Enum).snippet
+- assets/snippets/Ruby/module .. ClassMethods .. end.snippet
+- assets/snippets/Ruby/module .. end.snippet
+- assets/snippets/Ruby/module .. module_function .. end.snippet
+- assets/snippets/Ruby/option_parse { .. }.snippet
+- assets/snippets/Ruby/require _.._.snippet
+- assets/snippets/Ruby/unix_filter .. (uni).snippet
+- res/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png
+- png
+- res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_list_focused_holo.9.png
+- res/drawable-hdpi/abc_list_longpressed_holo.9.png
+- res/drawable-hdpi/abc_list_pressed_holo_dark.9.png
+- res/drawable-hdpi/abc_list_pressed_holo_light.9.png
+- res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png
+- res/drawable-hdpi/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-hdpi/btn_default_disabled_focused_holo_light.9.png
+- res/drawable-hdpi/btn_default_disabled_holo_light.9.png
+- res/drawable-hdpi/btn_default_focused_holo_light.9.png
+- res/drawable-hdpi/btn_default_normal_holo_light.9.png
+- res/drawable-hdpi/btn_default_pressed_holo_light.9.png
+- res/drawable-hdpi/com_facebook_tooltip_black_background.9.png
+- res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png
+- res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png
+- res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+- res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png
+- res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png
+- res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png
+- res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png
+- res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png
+- res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png
+- res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png
+- res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png
+- res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png
+- res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png
+- res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png
+- res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png
+- res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png
+- res/drawable-hdpi/common_signin_btn_text_focus_light.9.png
+- res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png
+- res/drawable-hdpi/common_signin_btn_text_normal_light.9.png
+- res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png
+- res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png
+- res/drawable-hdpi/notification_bg_low_normal.9.png
+- res/drawable-hdpi/notification_bg_low_pressed.9.png
+- res/drawable-hdpi/notification_bg_normal.9.png
+- res/drawable-hdpi/notification_bg_normal_pressed.9.png
+- res/drawable-hdpi/suggestions_background.9.png
+- res/drawable-hdpi/tutorial_bubble_down.9.png
+- res/drawable-hdpi/tutorial_bubble_right.9.png
+- res/drawable-hdpi/tutorial_bubble_up.9.png
+- res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_list_focused_holo.9.png
+- res/drawable-mdpi/abc_list_longpressed_holo.9.png
+- res/drawable-mdpi/abc_list_pressed_holo_dark.9.png
+- res/drawable-mdpi/abc_list_pressed_holo_light.9.png
+- res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png
+- res/drawable-mdpi/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-mdpi/btn_default_disabled_focused_holo_light.9.png
+- res/drawable-mdpi/btn_default_disabled_holo_light.9.png
+- res/drawable-mdpi/btn_default_focused_holo_light.9.png
+- res/drawable-mdpi/btn_default_normal_holo_light.9.png
+- res/drawable-mdpi/btn_default_pressed_holo_light.9.png
+- res/drawable-mdpi/com_facebook_tooltip_black_background.9.png
+- res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png
+- res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png
+- res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+- res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png
+- res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png
+- res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png
+- res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png
+- res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png
+- res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png
+- res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png
+- res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png
+- res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png
+- res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png
+- res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png
+- res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png
+- res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png
+- res/drawable-mdpi/common_signin_btn_text_focus_light.9.png
+- res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png
+- res/drawable-mdpi/common_signin_btn_text_normal_light.9.png
+- res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png
+- res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png
+- res/drawable-mdpi/notification_bg_low_normal.9.png
+- res/drawable-mdpi/notification_bg_low_pressed.9.png
+- res/drawable-mdpi/notification_bg_normal.9.png
+- res/drawable-mdpi/notification_bg_normal_pressed.9.png
+- res/drawable-mdpi/suggestions_background.9.png
+- res/drawable-mdpi/tutorial_bubble_down.9.png
+- res/drawable-mdpi/tutorial_bubble_right.9.png
+- res/drawable-mdpi/tutorial_bubble_up.9.png
+- res/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_list_focused_holo.9.png
+- res/drawable-xhdpi/abc_list_longpressed_holo.9.png
+- res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png
+- res/drawable-xhdpi/abc_list_pressed_holo_light.9.png
+- res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xhdpi/add_key_0.9.png
+- res/drawable-xhdpi/add_key_0_selected.9.png
+- res/drawable-xhdpi/add_key_1.9.png
+- res/drawable-xhdpi/add_key_1_selected.9.png
+- res/drawable-xhdpi/add_key_2.9.png
+- res/drawable-xhdpi/add_key_2_selected.9.png
+- res/drawable-xhdpi/add_key_3.9.png
+- res/drawable-xhdpi/add_key_3_selected.9.png
+- res/drawable-xhdpi/add_key_4.9.png
+- res/drawable-xhdpi/add_key_4_selected.9.png
+- res/drawable-xhdpi/add_key_5.9.png
+- res/drawable-xhdpi/add_key_5_selected.9.png
+- res/drawable-xhdpi/add_key_6.9.png
+- res/drawable-xhdpi/add_key_6_selected.9.png
+- res/drawable-xhdpi/add_key_7.9.png
+- res/drawable-xhdpi/add_key_7_selected.9.png
+- res/drawable-xhdpi/add_key_8.9.png
+- res/drawable-xhdpi/add_key_8_selected.9.png
+- res/drawable-xhdpi/add_key_9.9.png
+- res/drawable-xhdpi/add_key_9_selected.9.png
+- res/drawable-xhdpi/additional_keys_background_selected.9.png
+- res/drawable-xhdpi/additional_keys_background_unselected.9.png
+- res/drawable-xhdpi/btn_default_disabled_focused_holo_light.9.png
+- res/drawable-xhdpi/btn_default_disabled_holo_light.9.png
+- res/drawable-xhdpi/btn_default_focused_holo_light.9.png
+- res/drawable-xhdpi/btn_default_normal_holo_light.9.png
+- res/drawable-xhdpi/btn_default_pressed_holo_light.9.png
+- res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png
+- res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png
+- res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png
+- res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png
+- res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png
+- res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png
+- res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png
+- res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png
+- res/drawable-xhdpi/notification_bg_low_normal.9.png
+- res/drawable-xhdpi/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi/notification_bg_normal.9.png
+- res/drawable-xhdpi/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi/suggestions_background.9.png
+- res/drawable-xhdpi/tutorial_bubble_down.9.png
+- res/drawable-xhdpi/tutorial_bubble_right.9.png
+- res/drawable-xhdpi/tutorial_bubble_up.9.png
+- res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png
+- res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png
+- res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxxhdpi/suggestions_background.9.png
+- res/drawable/menu_hardkey_panel_holo_light.9.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  sdk-version.txt: '0'
+  trusted-certs.raw: '8'
+  com/google/api/client/googleapis/google.jks: '8'
+  javax/annotation/CheckForNull.java: '8'
+  javax/annotation/CheckForSigned.java: '8'
+  javax/annotation/CheckReturnValue.java: '8'
+  javax/annotation/Detainted.java: '8'
+  javax/annotation/MatchesPattern.java: '8'
+  javax/annotation/Nonnegative.java: '8'
+  javax/annotation/Nonnull.java: '8'
+  javax/annotation/Nullable.java: '8'
+  javax/annotation/OverridingMethodsMustInvokeSuper.java: '8'
+  javax/annotation/ParametersAreNonnullByDefault.java: '8'
+  javax/annotation/ParametersAreNullableByDefault.java: '8'
+  javax/annotation/PropertyKey.java: '8'
+  javax/annotation/RegEx.java: '8'
+  javax/annotation/Signed.java: '8'
+  javax/annotation/Syntax.java: '8'
+  javax/annotation/Tainted.java: '8'
+  javax/annotation/Untainted.java: '8'
+  javax/annotation/WillClose.java: '8'
+  javax/annotation/WillCloseWhenClosed.java: '8'
+  javax/annotation/WillNotClose.java: '8'
+  javax/annotation/concurrent/GuardedBy.java: '8'
+  javax/annotation/concurrent/Immutable.java: '8'
+  javax/annotation/concurrent/NotThreadSafe.java: '8'
+  javax/annotation/concurrent/ThreadSafe.java: '8'
+  javax/annotation/meta/Exclusive.java: '8'
+  javax/annotation/meta/Exhaustive.java: '8'
+  javax/annotation/meta/TypeQualifier.java: '8'
+  javax/annotation/meta/TypeQualifierDefault.java: '8'
+  javax/annotation/meta/TypeQualifierNickname.java: '8'
+  javax/annotation/meta/TypeQualifierValidator.java: '8'
+  javax/annotation/meta/When.java: '8'
+  org/spongycastle/x509/CertPathReviewerMessages.properties: '8'
+  org/spongycastle/x509/CertPathReviewerMessages_de.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '76'
+  versionName: 2.0.0.7

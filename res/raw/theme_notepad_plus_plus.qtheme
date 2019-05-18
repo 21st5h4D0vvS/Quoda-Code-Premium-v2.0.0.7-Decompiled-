@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+  <properties>
+    <fileversion>1</fileversion>
+    <name>Notepad++</name>
+  </properties>
+  
+  <environment>
+    <background>FFFFFFFF</background>
+    <caret>FF000000</caret>
+    <linehighlight>FFe8e8ff</linehighlight>
+    <selection>FFc0c0c0</selection>
+    <linenumberbackground>FFE4E4E4</linenumberbackground>
+    <linenumbertext>FF808080</linenumbertext>
+    <linenumberbookmarkedbackground>FF3a90ff</linenumberbookmarkedbackground>
+    <linenumberbookmarkedtext>FFFFFFFF</linenumberbookmarkedtext>
+  </environment>
+  
+  <styles>
+    <style name="normal" color="FF000000" bold="false" italic="false" />
+    <style name="comment" color="FF008000" bold="false" italic="false" />
+    <style name="string" color="FF8000ff" bold="false" italic="false" />
+    
+    <!-- General programming languages -->
+    <style name="number" color="FFFF8000" bold="false" italic="false" />
+    <style name="languageconstant" color="FF000000" bold="false" italic="false" />
+    <style name="userconstant" color="FF000000" bold="false" italic="false" />
+    <style name="variable" color="FF000080" bold="false" italic="false" />
+    <style name="keyword" color="FF0000ff" bold="false" italic="false" />
+    <style name="type" color="FF8827e8" bold="false" italic="false" />
+    <style name="class" color="FF000000" bold="false" italic="false" />
+    <style name="function" color="FF000000" bold="false" italic="false" />
+    <style name="operator" color="FF000080" bold="false" italic="false" />
+    <style name="preprocessor" color="FF000000" bold="false" italic="true" />
+    <style name="escape" color="FF333333" bold="false" italic="true" />
+    
+    <!-- For HTML and other markup languages -->
+    <style name="tagname" color="FF0000FF" bold="false" italic="false" />
+    <style name="tagattribute" color="FFFF0000" bold="false" italic="false" />
+    <style name="tagbrace" color="FF0000FF" bold="false" italic="false" />
+    
+    <style name="invalid" color="FFFF0000" bold="false" italic="false" />
+  </styles>
+</theme>

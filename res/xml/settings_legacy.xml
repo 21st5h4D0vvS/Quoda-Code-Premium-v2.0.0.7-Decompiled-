@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <Preference n1:title="@string/settings_header_appearance" n1:summary="@string/settings_header_appearance_summary"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <intent n1:targetPackage="com.henrythompson.quoda" n1:action="com.henrythompson.quoda.settings.SettingsActivity.appearance" n1:targetClass="com.henrythompson.quoda.settings.SettingsActivity" />
+    </Preference>
+    <Preference n2:title="@string/settings_header_editor" n2:summary="@string/settings_header_editor_summary"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <intent n2:targetPackage="com.henrythompson.quoda" n2:action="com.henrythompson.quoda.settings.SettingsActivity.editor" n2:targetClass="com.henrythompson.quoda.settings.SettingsActivity" />
+    </Preference>
+    <Preference n3:title="@string/settings_header_files" n3:summary="@string/settings_header_files_summary"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <intent n3:targetPackage="com.henrythompson.quoda" n3:action="com.henrythompson.quoda.settings.SettingsActivity.files" n3:targetClass="com.henrythompson.quoda.settings.SettingsActivity" />
+    </Preference>
+    <Preference n4:title="@string/settings_header_keybindings" n4:summary="@string/settings_header_keybindings_summary"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <intent n4:targetPackage="com.henrythompson.quoda" n4:action="com.henrythompson.quoda.settings.SettingsActivity.keybindings" n4:targetClass="com.henrythompson.quoda.settings.SettingsActivity" />
+    </Preference>
+    <Preference n5:title="@string/settings_header_cloud_servers" n5:summary="@string/settings_header_cloud_servers_summary"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <intent n5:targetPackage="com.henrythompson.quoda" n5:action="com.henrythompson.quoda.settings.SettingsActivity.cloud" n5:targetClass="com.henrythompson.quoda.settings.SettingsActivity" />
+    </Preference>
+    <Preference n6:title="@string/settings_header_contribute_summary" n6:summary="@string/settings_header_contribute"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <intent n6:targetPackage="com.henrythompson.quoda" n6:action="com.henrythompson.quoda.settings.SettingsActivity.contribute" n6:targetClass="com.henrythompson.quoda.settings.SettingsActivity" />
+    </Preference>
+    <Preference n7:title="@string/settings_header_about" n7:summary="@string/settings_header_about_summary"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <intent n7:targetPackage="com.henrythompson.quoda" n7:action="android.intent.action.VIEW" n7:targetClass="com.henrythompson.quoda.AboutActivity" />
+    </Preference>
+    <Preference n8:title="@string/settings_header_upgrade" n8:key="upgrade" n8:summary="@string/settings_header_upgrade_summary"
+      xmlns:n8="http://schemas.android.com/apk/res/android">
+        <intent n8:targetPackage="com.henrythompson.quoda" n8:action="android.intent.action.VIEW" n8:targetClass="com.henrythompson.quoda.AboutActivity" />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+  <properties>
+    <fileversion>1</fileversion>
+    <name>Eclipse</name>
+  </properties>
+  
+  <environment>
+    <background>FFFFFFFF</background>
+    <caret>FF000000</caret>
+    <linehighlight>FFE8F2FE</linehighlight>
+    <selection>FF3399FF</selection>
+    <linenumberbackground>FFFFFFFF</linenumberbackground>
+    <linenumbertext>FF787878</linenumbertext>
+    <linenumberbookmarkedbackground>FF3399FF</linenumberbookmarkedbackground>
+    <linenumberbookmarkedtext>FFFFFFFF</linenumberbookmarkedtext>
+  </environment>
+  
+  <styles>
+    <style name="normal" color="FF000000" bold="false" italic="false" />
+    <style name="comment" color="FF3F7F5F" bold="false" italic="false" />
+    <style name="string" color="FF2A00FF" bold="false" italic="false" />
+    
+    <!-- General programming languages -->
+    <style name="number" color="000000" bold="false" italic="false" />
+    <style name="languageconstant" color="FF0000C0" bold="false" italic="true" />
+    <style name="userconstant" color="FF0000C0" bold="false" italic="true" />
+    <style name="variable" color="FF0000C0" bold="false" italic="false" />
+    <style name="keyword" color="FF7F0055" bold="true" italic="false" />
+    <style name="type" color="FF7F0055" bold="true" italic="false" />
+    <style name="class" color="FF000000" bold="false" italic="false" />
+    <style name="function" color="FF000000" bold="false" italic="false" />
+    <style name="operator" color="FF000000" bold="false" italic="false" />
+    <style name="preprocessor" color="FF646464" bold="false" italic="false" />
+    <style name="escape" color="FF646480" bold="false" italic="false" />
+    
+    <!-- For HTML and other markup languages -->
+    <style name="tagname" color="FF3F7F7F" bold="false" italic="false" />
+    <style name="tagattribute" color="FF7F007F" bold="false" italic="false" />
+    <style name="tagbrace" color="FF3F7F7F" bold="false" italic="false" />
+    
+    <style name="invalid" color="FFFF0080" bold="false" italic="false" />
+  </styles>
+</theme>

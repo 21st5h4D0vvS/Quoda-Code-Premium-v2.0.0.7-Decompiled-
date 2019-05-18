@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingLeft="?dialogPreferredPadding" n1:paddingTop="8.0dip" n1:paddingRight="?dialogPreferredPadding" n1:paddingBottom="8.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/listitem_browser_picker_icon" n1:layout_width="48.0dip" n1:layout_height="48.0dip" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="8.0dip" n1:scaleType="centerInside" />
+    <TextView n1:textAppearance="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" n1:layout_gravity="center_vertical" n1:id="@id/listitem_browser_picker_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Browser" />
+</LinearLayout>

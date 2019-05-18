@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+    <content><![CDATA[@implementation ${1:${filename_no_extension}}
+- (id)init
+{
+	if((self = [super init]))
+	{
+		$0
+	}
+	return self;
+}
+@end]]></content>
+    <tabTrigger>clm</tabTrigger>
+    <language>Objective-C|Objective-C++</language>
+    <description>Class Implementation</description>
+    <name>Class Implementation</name>
+</snippet>

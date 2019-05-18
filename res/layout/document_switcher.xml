@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/actionbar_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <EditText n1:textColor="#ffffffff" n1:textColorHint="#ffbbbbbb" n1:id="@id/document_switcher_search_box" n1:background="@color/actionbar_background_dark" n1:padding="16.0dip" n1:layout_width="fill_parent" n1:layout_height="@dimen/actionbar_height" n1:hint="@string/search_for_file" n1:inputType="textNoSuggestions" n1:imeOptions="flagNoExtractUi" />
+    <ListView n1:id="@id/document_switcher_list" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0" n1:animateLayoutChanges="true" />
+    <View n1:background="#ff101010" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <Button n1:textSize="12.0dip" n1:textColor="#ffffffff" n1:id="@id/document_switcher_new" n1:background="@drawable/actionbar_button_background" n1:paddingTop="8.0dip" n1:layout_width="fill_parent" n1:layout_height="64.0dip" n1:text="@string/new_file" n1:drawableTop="@drawable/ic_action_new" n1:layout_weight="1.0" n1:textAllCaps="false" />
+        <Button n1:textSize="12.0dip" n1:textColor="#ffffffff" n1:id="@id/document_switcher_template" n1:background="@drawable/actionbar_button_background" n1:paddingTop="8.0dip" n1:layout_width="fill_parent" n1:layout_height="64.0dip" n1:text="@string/template" n1:drawableTop="@drawable/ic_action_template" n1:layout_weight="1.0" n1:textAllCaps="false" />
+        <Button n1:textSize="12.0dip" n1:textColor="#ffffffff" n1:id="@id/document_switcher_open" n1:background="@drawable/actionbar_button_background" n1:paddingTop="8.0dip" n1:layout_width="fill_parent" n1:layout_height="64.0dip" n1:text="@string/open" n1:drawableTop="@drawable/ic_action_open" n1:layout_weight="1.0" n1:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

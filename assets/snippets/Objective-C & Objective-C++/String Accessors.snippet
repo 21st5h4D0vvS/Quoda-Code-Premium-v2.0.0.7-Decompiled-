@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+    <content><![CDATA[[- (NSString *)${1:thing}
+{
+	return ${2:$1};
+}
+
+- (void)set${UPPERCASE_START($1)}:(NSString *)${3:a${UPPERCASE_START($1)}}
+{
+	$3 = [$3 copy];
+	[$2 release];
+	$2 = $3;
+}]]></content>
+    <tabTrigger>stracc</tabTrigger>
+    <language>Objective-C|Objective-C++</language>
+    <description>String Accessors</description>
+    <name>String Accessors</name>
+</snippet>

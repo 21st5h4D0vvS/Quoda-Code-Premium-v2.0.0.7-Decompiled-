@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <ListPreference n1:entries="@array/encodings_open" n1:title="@string/settings_files_encoding_open" n1:key="encoding_open" n1:summary="@string/settings_files_encoding_open_summary" n1:defaultValue="@string/auto_detect" n1:dialogTitle="@string/settings_files_encoding_open" n1:entryValues="@array/encodings_open"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ListPreference n2:entries="@array/encodings_save" n2:title="@string/settings_files_encoding_save" n2:key="encoding_save" n2:summary="@string/settings_files_encoding_save_summary" n2:defaultValue="@string/keep_original" n2:dialogTitle="@string/settings_files_encoding_save" n2:entryValues="@array/encodings_save"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <ListPreference n3:entries="@array/linebreaks_save" n3:title="@string/settings_files_linebreaks" n3:key="default_linebreak" n3:summary="@string/settings_files_linebreaks_summary" n3:defaultValue="@string/linebreaks_default" n3:dialogTitle="@string/settings_files_linebreaks" n3:entryValues="@array/linebreaks_save_values"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n4:title="@string/settings_files_ask_for_save_on_exit" n4:key="ask_for_save_on_exit" n4:summary="@string/settings_files_ask_for_save_on_exit_summary" n4:defaultValue="false"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+	<content><![CDATA[begin
+	${SELECTED_TEXT}
+rescue ${1:Exception}${2:: => $3{e}}
+	$0
+end
+]]></content>
+	<name>begin … rescue … end</name>
+	<description>begin … rescue … end</description>
+	<tabTrigger>begin</tabTrigger>
+	<language>ruby</language>
+</snippet>

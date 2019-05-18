@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tags>
+	<globalevents>
+		<globalevent name="onblur"></globalevent>
+		<globalevent name="onchange"></globalevent>
+		<globalevent name="oncontextmenu"></globalevent>
+		<globalevent name="onfocus"></globalevent>
+		<globalevent name="onformchange"></globalevent>
+		<globalevent name="onforminput"></globalevent>
+		<globalevent name="oninput"></globalevent>
+		<globalevent name="oninvalid"></globalevent>
+		<globalevent name="onreset"></globalevent>
+		<globalevent name="onselect"></globalevent>
+		<globalevent name="onsubmit"></globalevent>
+		<globalevent name="onkeydown"></globalevent>
+		<globalevent name="onkeypress"></globalevent>
+		<globalevent name="onkeyup"></globalevent>
+		<globalevent name="onclick"></globalevent>
+		<globalevent name="ondblclick"></globalevent>
+		<globalevent name="ondrag"></globalevent>
+		<globalevent name="ondragend"></globalevent>
+		<globalevent name="ondragenter"></globalevent>
+		<globalevent name="ondragleave"></globalevent>
+		<globalevent name="ondragover"></globalevent>
+		<globalevent name="ondragstart"></globalevent>
+		<globalevent name="ondrag"></globalevent>
+		<globalevent name="onmousedown"></globalevent>
+		<globalevent name="onmousemove"></globalevent>
+		<globalevent name="onmouseout"></globalevent>
+		<globalevent name="onmouseover"></globalevent>
+		<globalevent name="onmouseup"></globalevent>
+		<globalevent name="onmousewheel"></globalevent>
+		<globalevent name="onscroll"></globalevent>
+		<globalevent name="onabort"></globalevent>
+		<globalevent name="oncanplay"></globalevent>
+		<globalevent name="oncanplaythrough"></globalevent>
+		<globalevent name="ondurationchange"></globalevent>
+		<globalevent name="onemptied"></globalevent>
+		<globalevent name="onended"></globalevent>
+		<globalevent name="onerror"></globalevent>
+		<globalevent name="onloadeddata"></globalevent>
+		<globalevent name="onloadedmetadata"></globalevent>
+		<globalevent name="onloadstart"></globalevent>
+		<globalevent name="onpause"></globalevent>
+		<globalevent name="onplay"></globalevent>
+		<globalevent name="onplaying"></globalevent>
+		<globalevent name="onprogress"></globalevent>
+		<globalevent name="onratechange"></globalevent>
+		<globalevent name="onreadystatechange"></globalevent>
+		<globalevent name="onseeked"></globalevent>
+		<globalevent name="onseeking"></globalevent>
+		<globalevent name="onstalled"></globalevent>
+		<globalevent name="onsuspend"></globalevent>
+		<globalevent name="ontimeupdate"></globalevent>
+		<globalevent name="onvolumechange"></globalevent>
+		<globalevent name="onwaiting"></globalevent>
+	</globalevents>
+	
+	<globalattributes>
+		<globalattribute name="accesskey"></globalattribute>
+		<globalattribute name="class"></globalattribute>
+		<globalattribute name="contenteditable" >
+			<globalattributevalue value="true"></globalattributevalue>
+			<globalattributevalue value="false"></globalattributevalue>
+			<globalattributevalue value="inherit"></globalattributevalue>
+		</globalattribute>
+		<globalattribute name="contextmenu"></globalattribute>
+		<globalattribute name="dir">
+			<globalattributevalue value="ltr"></globalattributevalue>
+			<globalattributevalue value="rtl"></globalattributevalue>
+			<globalattributevalue value="auto"></globalattributevalue>
+		</globalattribute>
+		<globalattribute name="draggable" >
+			<globalattributevalue value="true"></globalattributevalue>
+			<globalattributevalue value="false"></globalattributevalue>
+			<globalattributevalue value="auto"></globalattributevalue>
+		</globalattribute>
+		<globalattribute name="dropzone">
+			<globalattributevalue value="copy"></globalattributevalue>
+			<globalattributevalue value="move"></globalattributevalue>
+			<globalattributevalue value="link"></globalattributevalue>
+		</globalattribute>
+		<globalattribute name="hidden" >
+			<globalattributevalue value="hidden"></globalattributevalue>
+		</globalattribute>
+		<globalattribute name="id"></globalattribute>
+		<globalattribute name="lang"></globalattribute>
+		<globalattribute name="spellcheck">
+			<globalattributevalue value="true"></globalattributevalue>
+			<globalattributevalue value="false"></globalattributevalue>
+		</globalattribute>
+		<globalattribute name="style"></globalattribute>
+		<globalattribute name="tagindex"></globalattribute>
+	</globalattributes>
+	
+	<colors>
+		<color name="AliceBlue"></color>
+		<color name="AntiqueWhite"></color>
+		<color name="Aqua"></color>
+		<color name="Aquamarine"></color>
+		<color name="Azure"></color>
+		<color name="Beige"></color>
+		<color name="Bisque"></color>
+		<color name="Black"></color>
+		<color name="BlanchedAlmond"></color>
+		<color name="Blue"></color>
+		<color name="BlueViolet"></color>
+		<color name="Brown"></color>
+		<color name="BurlyWood"></color>
+		<color name="CadetBlue"></color>
+		<color name="Chartreuse"></color>
+		<color name="Chocolate"></color>
+		<color name="Coral"></color>
+		<color name="CornflowerBlue"></color>
+		<color name="Cornsilk"></color>
+		<color name="Crimson"></color>
+		<color name="Cyan"></color>
+		<color name="DarkBlue"></color>
+		<color name="DarkCyan"></color>
+		<color name="DarkGoldenRod"></color>
+		<color name="DarkGray"></color>
+		<color name="DarkGrey"></color>
+		<color name="DarkGreen"></color>
+		<color name="DarkKhaki"></color>
+		<color name="DarkMagenta"></color>
+		<color name="DarkOliveGreen"></color>
+		<color name="DarkOrange"></color>
+		<color name="DarkRed"></color>
+		<color name="DarkSalmon"></color>
+		<color name="DarkSeaGreen"></color>
+		<color name="DarkSlateBlue"></color>
+		<color name="DarkSlateGray"></color>
+		<color name="DarkSlateGrey"></color>
+		<color name="DarkTurquoise"></color>
+		<color name="DarkViolet"></color>
+		<color name="DeepPink"></color>
+		<color name="DeepSkyBlue"></color>
+		<color name="DimGray"></color>
+		<color name="DimGrey"></color>
+		<color name="DodgerBlue"></color>
+		<color name="FireBrick"></color>
+		<color name="FloralWhite"></color>
+		<color name="ForestGreen"></color>
+		<color name="Fuchsia"></color>
+		<color name="Gainsboro"></color>
+		<color name="GhostWhite"></color>
+		<color name="Gold"></color>
+		<color name="GoldenRod"></color>
+		<color name="Gray"></color>
+		<color name="Grey"></color>
+		<color name="Green"></color>
+		<color name="GreenYellow"></color>
+		<color name="HoneyDew"></color>
+		<color name="HotPink"></color>
+		<color name="IndianRed"></color>
+		<color name="Indigo"></color>
+		<color name="Ivory"></color>
+		<color name="Khaki"></color>
+		<color name="Lavender"></color>
+		<color name="LavenderBlush"></color>
+		<color name="LawnGreen"></color>
+		<color name="LemonChiffon"></color>
+		<color name="LightBlue"></color>
+		<color name="LightCoral"></color>
+		<color name="LightCyan"></color>
+		<color name="LightGoldenRodYellow"></color>
+		<color name="LightGray"></color>
+		<color name="LightGrey"></color>
+		<color name="LightGreen"></color>
+		<color name="LightPink"></color>
+		<color name="LightSalmon"></color>
+		<color name="LightSeaGreen"></color>
+		<color name="LightSkyBlue"></color>
+		<color name="LightSlateGray"></color>
+		<color name="LightSlateGrey"></color>
+		<color name="LightSteelBlue"></color>
+		<color name="LightYellow"></color>
+		<color name="Lime"></color>
+		<color name="LimeGreen"></color>
+		<color name="Linen"></color>
+		<color name="Magenta"></color>
+		<color name="Maroon"></color>
+		<color name="MediumAquaMerine"></color>
+		<color name="MediumBlue"></color>
+		<color name="MediumOrchid"></color>
+		<color name="MediumPurple"></color>
+		<color name="MediumSeaGreen"></color>
+		<color name="MediumSlateBlue"></color>
+		<color name="MediumSpringGreen"></color>
+		<color name="MediumTurquoise"></color>
+		<color name="MediumVioletRed"></color>
+		<color name="MidnightBlue"></color>
+		<color name="MintCream"></color>
+		<color name="MistyRose"></color>
+		<color name="Moccasin"></color>
+		<color name="NavajoWhite"></color>
+		<color name="Navy"></color>
+		<color name="OldLace"></color>
+		<color name="Olive"></color>
+		<color name="OliveDrab"></color>
+		<color name="Orange"></color>
+		<color name="OrangeRed"></color>
+		<color name="Orchid"></color>
+		<color name="PaleGoldenRod"></color>
+		<color name="PaleGreen"></color>
+		<color name="PaleTurquoise"></color>
+		<color name="PaleVioletRed"></color>
+		<color name="PapayaWhip"></color>
+		<color name="PeachPuff"></color>
+		<color name="Peru"></color>
+		<color name="Pink"></color>
+		<color name="Plum"></color>
+		<color name="PowderBlue"></color>
+		<color name="Purple"></color>
+		<color name="Red"></color>
+		<color name="RosyBrown"></color>
+		<color name="RoyalBlue"></color>
+		<color name="SaddleBrown"></color>
+		<color name="Salmon"></color>
+		<color name="SandyBrown"></color>
+		<color name="SeaGreen"></color>
+		<color name="SeaShell"></color>
+		<color name="Sienna"></color>
+		<color name="Silver"></color>
+		<color name="SkyBlue"></color>
+		<color name="SlateBlue"></color>
+		<color name="SlateGray"></color>
+		<color name="SlateGrey"></color>
+		<color name="Snow"></color>
+		<color name="SpringGreen"></color>
+		<color name="SteelBlue"></color>
+		<color name="Tan"></color>
+		<color name="Teal"></color>
+		<color name="Thistle"></color>
+		<color name="Tomato"></color>
+		<color name="Turquoise"></color>
+		<color name="Violet"></color>
+		<color name="Wheat"></color>
+		<color name="White"></color>
+		<color name="WhiteSmoke"></color>
+		<color name="Yellow"></color>
+		<color name="YellowGreen"></color>
+	</colors>
+	
+	<tag name="a" description="Defines a hyperlink" info="http://www.w3schools.com/html5/tag_a.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="charset" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$charset"/>
+		</attribute>
+		<attribute name="coords" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="href" type="property" deprecated="false" mandatory="true"></attribute>
+		<attribute name="href_lang" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="media" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="rel" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="alternate"/>
+			<attributevalue value="author"/>
+			<attributevalue value="bookmark"/>
+			<attributevalue value="help"/>
+			<attributevalue value="license"/>
+			<attributevalue value="next"/>
+			<attributevalue value="nofollow"/>
+			<attributevalue value="noreferrer"/>
+			<attributevalue value="prefetch"/>
+			<attributevalue value="prev"/>
+			<attributevalue value="search"/>
+			<attributevalue value="tag"/>
+		</attribute>
+		<attribute name="rev" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="shape" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="default"/>
+			<attributevalue value="rect"/>
+			<attributevalue value="circle"/>
+			<attributevalue value="poly"/>
+		</attribute>
+		<attribute name="target" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="_blank"/>
+			<attributevalue value="_parent"/>
+			<attributevalue value="_self"/>
+			<attributevalue value="_top"/>
+		</attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="abbr" description="Defines an abbreviation" info="http://www.w3schools.com/html5/tag_abbr.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="acronym" description="Defines an acronym. Unsupported in HTML5" info="http://www.w3schools.com/html5/tag_acronym.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="xml:lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="address" description="Defines contact information for the author/owner of a document/article" info="http://www.w3schools.com/html5/tag_address.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="applet" description="Defines an embedded applet. Deprecated in HTML 4.01; Unsupported in HTML5" info="http://www.w3schools.com/html5/tag_applet.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="code" type="property" deprecated="true" mandatory="true"></attribute>
+		<attribute name="object" type="property" deprecated="true" mandatory="true"></attribute>
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="top"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="alt" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="archive" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="codebase" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="height" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="hspace" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="vspace" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="area" description="Defines an area inside an image-map" info="http://www.w3schools.com/html5/tag_area.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="alt" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="coords" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="href" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="hreflang" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$lang"/>
+		</attribute>
+		<attribute name="media" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="nohref" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="rel" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="alternate"/>
+			<attributevalue value="author"/>
+			<attributevalue value="bookmark"/>
+			<attributevalue value="help"/>
+			<attributevalue value="license"/>
+			<attributevalue value="next"/>
+			<attributevalue value="nofollow"/>
+			<attributevalue value="noreferrer"/>
+			<attributevalue value="prefetch"/>
+			<attributevalue value="prev"/>
+			<attributevalue value="search"/>
+			<attributevalue value="tag"/>
+		</attribute>
+		<attribute name="shape" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="default"/>
+			<attributevalue value="rect"/>
+			<attributevalue value="circle"/>
+			<attributevalue value="poly"/>
+		</attribute>
+		<attribute name="target" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="_blank"/>
+			<attributevalue value="_parent"/>
+			<attributevalue value="_self"/>
+			<attributevalue value="_top"/>
+		</attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="article" description="Defines an article. New in HTML5." info="http://www.w3schools.com/html5/tag_article.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="aside" description="Defines content aside from the page content. New in HTML5" info="http://www.w3schools.com/html5/tag_aside.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="audio" description="Defines sound content. New in HTML5." info="http://www.w3schools.com/html5/tag_audio.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="autoplay" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autoplay"/>
+		</attribute>
+		<attribute name="controls" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="controls"/>
+		</attribute>
+		<attribute name="loop" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="loop"/>
+		</attribute>
+		<attribute name="preload" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="auto"/>
+			<attributevalue value="metadata"/>
+			<attributevalue value="none"/>
+		</attribute>
+		<attribute name="url" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="b" description="Defines bold text" info="http://www.w3schools.com/html5/tag_b.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="base" description="Specifies the base URL/target for all relative URLs in a document" info="http://www.w3schools.com/html5/tag_base.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="href" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="target" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="_blank"/>
+			<attributevalue value="_parent"/>
+			<attributevalue value="_self"/>
+			<attributevalue value="_top"/>
+		</attribute>
+	</tag>
+	<tag name="basefont" description="Specifies a default color, size, or font for all the text in a document. Deprecated in HTML 4.01; Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_basefont.asp" deprecated="true" blocklevel="false" void="true" html5events="false" html5global="false">
+		<attribute name="color" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$color"/>
+		</attribute>
+		<attribute name="face" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="size" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="bdi" description="Isolates a part of text that might be formatted in a different direction from other text outside it. New in HTML5." info="http://www.w3schools.com/html5/tag_bdi.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="bdo" description="Overrides the current text direction" info="http://www.w3schools.com/html5/tag_bdo.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="dir" type="property" deprecated="false" mandatory="true">
+			<attributevalue value="ltr"/>
+			<attributevalue value="rtl"/>
+		</attribute>
+	</tag>
+	<tag name="big" description="Defines big text. Unsupported in HTML5" info="http://www.w3schools.com/html5/tag_big.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="xml:lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="blockquote" description="Defines a section that is quoted from another source" info="http://www.w3schools.com/html5/tag_blockquote.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="cite" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="body" description="Defines the document's body." info="http://www.w3schools.com/html5/tag_body" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="alink" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="background" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="bgcolor" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$color"/>
+		</attribute>
+		<attribute name="link" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$color"/>
+		</attribute>
+		<attribute name="text" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$color"/>
+		</attribute>
+		<attribute name="vlink" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$color"/>
+		</attribute>
+		<attribute name="onafterprint" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onbeforeprint" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onbeforeunload" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onblur" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onerror" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onfocus" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onhaschange" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onload" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onmessage" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onoffline" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="ononline" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onpagehide" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onpageshow" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onpopstate" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onredo" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onresize" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onstorage" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onundo" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onunload" type="event" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="br" description="Defines a line break." info="http://www.w3schools.com/html5/tag_br.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true"></tag>
+	<tag name="button" description="Defines a clickable button." info="http://www.w3schools.com/html5/tag_button.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="autofocus" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="formaction" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="formenctype" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="application/x-www-form-urlencoded"/>
+			<attributevalue value="multipart/form-data"/>
+			<attributevalue value="text/plain"/>
+		</attribute>
+		<attribute name="formmethod" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="get"/>
+			<attributevalue value="post"/>
+		</attribute>
+		<attribute name="formnovalidate" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="formnovalidate"/>
+		</attribute>
+		<attribute name="formtarget" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="button"/>
+			<attributevalue value="reset"/>
+			<attributevalue value="submit"/>
+		</attribute>
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="canvas" description="Used to draw graphics, on the fly, via scripting (usually JavaScript). New in HTML5." info="http://www.w3schools.com/html5/tag_canvas.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="caption" description="Defines a table caption" info="http://www.w3schools.com/html5/tag_caption.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="center" description="Defines center-aligned text. Deprecated from HTML 4.01; Unsupported in HTML5" info="http://www.w3schools.com/html5/tag_center.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="cite" description="Defines the title of a work" info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="code" description="Defines a piece of computer code" info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="col" description="Specified column properties for each column within a &lt;colgroup&gt; element" info="http://www.w3schools.com/html5/tag_col.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="span" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="width" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="colgroup" description="Specifies a group of one or more columns in a table for formatting" info="http://www.w3schools.com/html5/tag_colgroup.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="span" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="width" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="command" description="Defines a command button that a user can invoke. New in HTML5." info="http://www.w3schools.com/html5/tag_command.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="checked" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="checked"/>
+		</attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="icon" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="label" type="property" deprecated="false" mandatory="true"></attribute>
+		<attribute name="radiogroup" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="checkbox"/>
+			<attributevalue value="command"/>
+			<attributevalue value="radio"/>
+		</attribute>
+	</tag>
+	<tag name="datalist" description="Specifies a list of pre-defined options for input controls. New in HTML5." info="http://www.w3schools.com/html5/tag_datalist.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="dd" description="Defines a description of an item in a definition list" info="http://www.w3schools.com/html5/tag_dd.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="del" description="Defines a text that has been deleted from a document" info="http://www.w3schools.com/html5/tag_del.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="cite" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="datetime" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="details" description="Defines additional details that the user can view or hide. New in HTML5." info="http://www.w3schools.com/html5/tag_details.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="open" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="open"/>
+		</attribute>
+	</tag>
+	<tag name="dfn" description="Defines a definition term" info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="dir" description="Defines a directory list. Depricated from HTML 4.01; Unsupported in HTML5" info="http://www.w3schools.com/html5/tag_dir.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="compact" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="Compact"/>
+		</attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="div" description="Defines a section in a document" info="http://www.w3schools.com/html5/tag_div.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+		</attribute>
+	</tag>
+	<tag name="dl" description="Defines a definition list." info="http://www.w3schools.com/html5/tag_dl.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="dt" description="Defines a term (an item) in a definition list" info="http://www.w3schools.com/html5/tag_dt.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="em" description="Defines emphasized text." info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="embed" description="Defines a container for an external application or interactive content (a plug-in). New in HTML5" info="http://www.w3schools.com/html5/tag_embed.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="fieldset" description="Groups related elements in a form" info="http://www.w3schools.com/html5/tag_fieldset.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="figcaption" description="Defines a caption for a &lt;figure&gt; element. New in HTML5." info="http://www.w3schools.com/html5/tag_figcaption.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="figure" description="Specifies self-contained content. New in HTML5." info="http://www.w3schools.com/html5/tag_figure.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="font" description="Defines font, color, and size for text. Deprecated from HTML 4.01; Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_font.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="color" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$color"/>
+		</attribute>
+		<attribute name="face" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="size" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="footer" description="Defines a footer for a document or section. New in HTML5." info="http://www.w3schools.com/html5/tag_footer.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="form" description="Defines an HTML form for user input." info="http://www.w3schools.com/html5/tag_form.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="accept" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="accept-charset" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$charset"/>
+		</attribute>
+		<attribute name="action" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="autocomplete" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="on"/>
+			<attributevalue value="off"/>
+		</attribute>
+		<attribute name="enctype" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="application/x-www-form-urlencoded"/>
+			<attributevalue value="multipart/form-data"/>
+			<attributevalue value="text/plain"/>
+		</attribute>
+		<attribute name="method" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="get"/>
+			<attributevalue value="post"/>
+		</attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="novalidate" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="novalidate"/>
+		</attribute>
+		<attribute name="target" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="_blank"/>
+			<attributevalue value="_self"/>
+			<attributevalue value="_parent"/>
+			<attributevalue value="_top"/>
+		</attribute>
+	</tag>
+	<tag name="frame" description="Defines a window (a frame) in a frameset. Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_frame.asp" deprecated="true" blocklevel="false" void="true" html5events="false" html5global="false">
+		<attribute name="frameborder" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="0"/>
+			<attributevalue value="1"/>
+		</attribute>
+		<attribute name="longdesc" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="marginheight" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="marginwidth" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="scrolling" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="yes"/>
+			<attributevalue value="no"/>
+			<attributevalue value="auto"/>
+		</attribute>
+		<attribute name="src" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onload" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="frameset" description="Defines a set of frames. Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_frameset.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="cols" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="rows" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onload" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onunload" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="h1" description="Defines a very important heading" info="http://www.w3schools.com/html5/tag_hn.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="h2" description="Defines a quite important heading" info="http://www.w3schools.com/html5/tag_hn.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="h3" description="Defines a heading" info="http://www.w3schools.com/html5/tag_hn.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="h4" description="Defines a quite unimportant heading" info="http://www.w3schools.com/html5/tag_hn.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="h5" description="Defines an unimportant heading" info="http://www.w3schools.com/html5/tag_hn.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="h6" description="Defines a very unimportant heading" info="http://www.w3schools.com/html5/tag_hn.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="head" description="Defines information about the document" info="http://www.w3schools.com/html5/tag_head.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="profile" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="header" description="Defines a header for a document or section. New in HTML5." info="http://www.w3schools.com/html5/tag_header.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="hgroup" description="Groups heading (&lt;h1&gt; to &lt;h6&gt;) elements. New in HTML5." info="http://www.w3schools.com/html5/tag_hgroup.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="hr" description="In HTML 4.01, the &lt;hr&gt; tag represents a horizontal rule. In HTML5, the &lt;hr&gt; tag defines a thematic break." info="http://www.w3schools.com/html5/tag_hr.asp" deprecated="false" blocklevel="true" void="true" html5events="true" html5global="true"></tag>
+	<tag name="html" description="Defines the root of an HTML document" info="http://www.w3schools.com/html5/tag_html.asp" deprecated="false" blocklevel="false" void="false" html5events="false" html5global="true">
+		<attribute name="manifest" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="xmlns" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="http://www.w3/org/1999/xhtml"/>
+		</attribute>
+	</tag>
+	<tag name="i" description="Defines a part of text in an alternate voice or mood." info="http://www.w3schools.com/html5/tag_i.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="iframe" description="Defines an inline frame." info="http://www.w3schools.com/html5/tag_iframe.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="frameborder" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="0"/>
+			<attributevalue value="1"/>
+		</attribute>
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="longdesc" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="marginheight" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="marginwidth" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="sandbox" type="property" deprecated="false" mandatory="false">
+			<attributevalue value=""/>
+			<attributevalue value="allow-forms"/>
+			<attributevalue value="allow-same-origin"/>
+			<attributevalue value="allow-scripts"/>
+			<attributevalue value="allow-top-navigation"/>
+		</attribute>
+		<attribute name="scrolling" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="yes"/>
+			<attributevalue value="no"/>
+			<attributevalue value="auto"/>
+		</attribute>
+		<attribute name="seamless" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="seamless"/>
+		</attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="src_doc" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="img" description="Defines an image." info="http://www.w3schools.com/html5/tag_img.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="src" type="property" deprecated="false" mandatory="true"></attribute>
+		<attribute name="alt" type="property" deprecated="false" mandatory="true"></attribute>
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="ismap" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="ismap"/>
+		</attribute>
+		<attribute name="usemap" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="input" description="Defines an input control." info="http://www.w3schools.com/html5/tag_input.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="false">
+		<attribute name="accept" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="audio/*"/>
+			<attributevalue value="video/*"/>
+			<attributevalue value="image/*"/>
+		</attribute>
+		<attribute name="alt" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="autocomplete" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="on"/>
+			<attributevalue value="off"/>
+		</attribute>
+		<attribute name="autofocus" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="checked" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="checked"/>
+		</attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="formaction" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="formenctype" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="application/x-www-form-urlencoded"/>
+			<attributevalue value="multipart/form-data"/>
+			<attributevalue value="text/plain"/>
+		</attribute>
+		<attribute name="formmethod" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="post"/>
+			<attributevalue value="get"/>
+		</attribute>
+		<attribute name="formnovalidate" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="formnovalidate"/>
+		</attribute>
+		<attribute name="formtarget" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="_blank"/>
+			<attributevalue value="_self"/>
+			<attributevalue value="_parent"/>
+			<attributevalue value="_top"/>
+		</attribute>
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="list" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="max" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="maxlength" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="min" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="multiple" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="multiplate"/>
+		</attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="pattern" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="placeholder" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="readonly" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="readonly"/>
+		</attribute>
+		<attribute name="required" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="required"/>
+		</attribute>
+		<attribute name="size" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="step" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="button"/>
+			<attributevalue value="checkbox"/>
+			<attributevalue value="color"/>
+			<attributevalue value="date"/>
+			<attributevalue value="datetime"/>
+			<attributevalue value="datetime-local"/>
+			<attributevalue value="email"/>
+			<attributevalue value="file"/>
+			<attributevalue value="hidden"/>
+			<attributevalue value="image"/>
+			<attributevalue value="month"/>
+			<attributevalue value="number"/>
+			<attributevalue value="password"/>
+			<attributevalue value="radio"/>
+			<attributevalue value="range"/>
+			<attributevalue value="reset"/>
+			<attributevalue value="search"/>
+			<attributevalue value="submit"/>
+			<attributevalue value="tel"/>
+			<attributevalue value="text"/>
+			<attributevalue value="time"/>
+			<attributevalue value="url"/>
+			<attributevalue value="week"/>
+		</attribute>
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="ins" description="Defines a text that has been inserted into a document." info="http://www.w3schools.com/html5/tag_ins.asp" deprecated="false" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="cite" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="datetime" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="kbd" description="Defines keyboard input." info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="keygen" description="Defines a key-pair generator field (for forms). New in HTML5." info="http://www.w3schools.com/html5/tag_keygen.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="autofocus" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="challenge" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="challenge"/>
+		</attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="keytype" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="rsa"/>
+			<attributevalue value="dsa"/>
+			<attributevalue value="ec"/>
+		</attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="label" description="Defines a label for an input element." info="http://www.w3schools.com/html5/tag_label.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="for" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="legend" description="Defines a caption for a &lt;fieldset&gt;, &lt;figure&gt;, or &lt;details&gt; element." info="http://www.w3schools.com/html5/tag_legend.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="li" description="Defines a list item" info="http://www.w3schools.com/html5/tag_li.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="link" description="Defines the relationship between a document and an external resource (most used to link to style sheets)" info="http://www.w3schools.com/html5/tag_link.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="charset" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$charset"/>
+		</attribute>
+		<attribute name="href" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="hreflang" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$lang"/>
+		</attribute>
+		<attribute name="media" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="rel" type="property" deprecated="false" mandatory="true">
+			<attributevalue value="alternate"/>
+			<attributevalue value="archives"/>
+			<attributevalue value="author"/>
+			<attributevalue value="bookmark"/>
+			<attributevalue value="external"/>
+			<attributevalue value="first"/>
+			<attributevalue value="help"/>
+			<attributevalue value="icon"/>
+			<attributevalue value="last"/>
+			<attributevalue value="licence"/>
+			<attributevalue value="next"/>
+			<attributevalue value="nofollow"/>
+			<attributevalue value="noreferrer"/>
+			<attributevalue value="pingback"/>
+			<attributevalue value="prefetch"/>
+			<attributevalue value="prev"/>
+			<attributevalue value="search"/>
+			<attributevalue value="sidebar"/>
+			<attributevalue value="stylesheet"/>
+			<attributevalue value="tag"/>
+			<attributevalue value="up"/>
+		</attribute>
+		<attribute name="rev" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="size" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="any"/>
+		</attribute>
+		<attribute name="target" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="_blank"/>
+			<attributevalue value="_self"/>
+			<attributevalue value="_top"/>
+			<attributevalue value="_parent"/>
+		</attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="map" description="Defines a client-side image-map " info="http://www.w3schools.com/html5/tag_map.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="name" type="property" deprecated="false" mandatory="true"></attribute>
+	</tag>
+	<tag name="mark" description="Defines marked/highlighted text. New in HTML5." info="http://www.w3schools.com/html5/tag_mark.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="menu" description="Defines a list/menu of commands. Deprecated in HTML 4.01; Redefined in HTML5." info="http://www.w3schools.com/html5/tag_menu.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="label" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="context"/>
+			<attributevalue value="toolbar"/>
+			<attributevalue value="list"/>
+		</attribute>
+	</tag>
+	<tag name="meta" description="Defines metadata about an HTML document." info="http://www.w3schools.com/html5/tag_meta.asp" deprecated="false" blocklevel="false" void="true" html5events="false" html5global="true">
+		<attribute name="charset" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$charset"/>
+		</attribute>
+		<attribute name="content" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="http-equiv" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="content-type"/>
+			<attributevalue value="default-style"/>
+			<attributevalue value="refresh"/>
+		</attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="application-name"/>
+			<attributevalue value="author"/>
+			<attributevalue value="description"/>
+			<attributevalue value="generator"/>
+			<attributevalue value="keywords"/>
+		</attribute>
+		<attribute name="scheme" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="meter" description="Defines a scalar measurement within a known range (a gauge). New in HTML5." info="http://www.w3schools.com/html5/tag_meter.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="high" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="low" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="max" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="min" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="optimum" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="nav" description="Defines navigation links. New in HTML5." info="http://www.w3schools.com/html5/tag_nav.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="noframes" description="Defines an alternate content for users that do not support frames. Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_noframes.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$lang"/>
+		</attribute>
+		<attribute name="style" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="xml:lang" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$lang"/>
+		</attribute>
+		<attribute name="onclick" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="false" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="noscript" description="Defines an alternate content for users that do not support client-side scripts." info="http://www.w3schools.com/html5/tag_noscript.asp" deprecated="false" blocklevel="true" void="false" html5events="false" html5global="true"></tag>
+	<tag name="object" description="Defines an embedded object." info="http://www.w3schools.com/html5/tag_object.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="top"/>
+			<attributevalue value="bottom"/>
+		</attribute>
+		<attribute name="archive" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="border" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="classid" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="codebase" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="codetype" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="data" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="declare" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="declare"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="hspace" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="standby" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="usemap" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="vspace" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="ol" description="Defines an ordered list." info="http://www.w3schools.com/html5/tag_ol.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="reversed" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="reversed"/>
+		</attribute>
+		<attribute name="start" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="1"/>
+			<attributevalue value="A"/>
+			<attributevalue value="a"/>
+			<attributevalue value="I"/>
+			<attributevalue value="i"/>
+		</attribute>
+		<attribute name="compact" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="compact"/>
+		</attribute>
+	</tag>
+	<tag name="optgroup" description="Defines a group of related options in a drop-down list." info="http://www.w3schools.com/html5/tag_optgroup.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="label" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+	</tag>
+	<tag name="option" description="Defines an option in a drop-down list." info="http://www.w3schools.com/html5/tag_option.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="label" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="selected" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="selected"/>
+		</attribute>
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="output" description="Defines the result of a calculation. New in HTML5." info="http://www.w3schools.com/html5/tag_output.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="for" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="p" description="Defines a paragraph." info="http://www.w3schools.com/html5/tag_p.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+		</attribute>
+	</tag>
+	<tag name="param" description="Defines a parameter for an object." info="http://www.w3schools.com/html5/tag_param.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="valuetype" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="data"/>
+			<attributevalue value="ref"/>
+			<attributevalue value="object"/>
+		</attribute>
+	</tag>
+	<tag name="pre" description="Defines preformatted text." info="http://www.w3schools.com/html5/tag_pre.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="progress" description="Represents the progress of a task. New in HTML5." info="http://www.w3schools.com/html5/tag_progress.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="max" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="value" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="q" description="Defines a short quotation." info="http://www.w3schools.com/html5/tag_q.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="cite" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="rp" description="Defines what to show in browsers that do not support ruby annotations. New in HTML5." info="http://www.w3schools.com/html5/tag_rp.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="rt" description="Defines an explanation/pronunciation of characters (for East Asian typography). New in HTML5." info="http://www.w3schools.com/html5/tag_rt.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="ruby" description="Defines a ruby annotation (for East Asian typography). New in HTML5." info="http://www.w3schools.com/html5/tag_ruby.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="s" description="The &lt;s&gt; tag specifies text that is no longer correct, accurate or relevant. Deprecated in HTML 4.01; Redefined in HTML5." info="http://www.w3schools.com/html5/tag_s.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="samp" description="Defines sample output from a computer program." info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="script" description="Defines a client-side script." info="http://www.w3schools.com/html5/tag_script.asp" deprecated="false" blocklevel="false" void="false" html5events="false" html5global="true">
+		<attribute name="async" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="async"/>
+		</attribute>
+		<attribute name="defer" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="defer"/>
+		</attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="charset" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$charset"/>
+		</attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="xml:space" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="preserve"/>
+		</attribute>
+	</tag>
+	<tag name="section" description="Defines a section in a document. New in HTML5." info="http://www.w3schools.com/html5/tag_section.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true"></tag>
+	<tag name="select" description="Defines a drop-down list." info="http://www.w3schools.com/html5/tag_select.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="autofocus" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="multiple" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="multiple"/>
+		</attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="size" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="small" description="Defines smaller text." info="http://www.w3schools.com/html5/tag_small.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="source" description="Defines multiple media resources for media elements (&lt;video&gt; and &lt;audio&gt;). New in HTML5." info="http://www.w3schools.com/html5/tag_source.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="media" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="type" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="span" description="Defines a section in a document." info="http://www.w3schools.com/html5/tag_span.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="strike" description="Defines strikethrough text. Deprecated from 4.01; Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_strike.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="$lang"/>
+		</attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="strong" description="Defines important text." info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="style" description="Defines style information for a document." info="http://www.w3schools.com/html5/tag_style.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="type" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="text/css"/>
+		</attribute>
+		<attribute name="media" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="scoped" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="scoped"/>
+		</attribute>
+	</tag>
+	<tag name="sub" description="Defines subscripted text." info="http://www.w3schools.com/html5/tag_sub.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="summary" description="Defines a visible heading for a &lt;details&gt; element. New in HTML5." info="http://www.w3schools.com/html5/tag_summary.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="sup" description="Defines superscripted text." info="http://www.w3schools.com/html5/tag_sup.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="table" description="Defines a table." info="http://www.w3schools.com/html5/tag_table.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="border" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="1"/>
+		</attribute>
+		<attribute name="cellpadding" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="cellspacing" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="frame" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="void"/>
+			<attributevalue value="above"/>
+			<attributevalue value="below"/>
+			<attributevalue value="hsides"/>
+			<attributevalue value="lhs"/>
+			<attributevalue value="rhs"/>
+			<attributevalue value="vsides"/>
+			<attributevalue value="box"/>
+			<attributevalue value="border"/>
+		</attribute>
+		<attribute name="rules" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="none"/>
+			<attributevalue value="groups"/>
+			<attributevalue value="rows"/>
+			<attributevalue value="cols"/>
+			<attributevalue value="all"/>
+		</attribute>
+		<attribute name="summary" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="tbody" description="Groups the body content in a table." info="http://www.w3schools.com/html5/tag_tbody.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="right"/>
+			<attributevalue value="left"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+	</tag>
+	<tag name="td" description="Defines a cell in a table." info="http://www.w3schools.com/html5/tag_td.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="abbr" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+		<attribute name="axis" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="colspan" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="headers" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="height" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="nowrap" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="nowrap"/>
+		</attribute>
+		<attribute name="rowspan" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="scope" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="col"/>
+			<attributevalue value="colgroup"/>
+			<attributevalue value="row"/>
+			<attributevalue value="rowgroup"/>
+		</attribute>
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="width" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="textarea" description="Defines a multiline input control (text area)." info="http://www.w3schools.com/html5/tag_textarea.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="autofocus" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autofocus"/>
+		</attribute>
+		<attribute name="cols" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="disabled" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="disabled"/>
+		</attribute>
+		<attribute name="form" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="maxlength" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="name" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="placeholder" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="readonly" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="readonly"/>
+		</attribute>
+		<attribute name="required" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="required"/>
+		</attribute>
+		<attribute name="rows" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="wrap" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="hard"/>
+			<attributevalue value="soft"/>
+		</attribute>
+	</tag>
+	<tag name="tfoot" description="Groups the footer content in a table." info="http://www.w3schools.com/html5/tag_tfoot.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="right"/>
+			<attributevalue value="left"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+	</tag>
+	<tag name="th" description="Defines a header cell in a table." info="http://www.w3schools.com/html5/tag_th.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="abbr" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="left"/>
+			<attributevalue value="right"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+		<attribute name="axis" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="colspan" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="headers" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="height" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="nowrap" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="nowrap"/>
+		</attribute>
+		<attribute name="rowspan" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="scope" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="col"/>
+			<attributevalue value="colgroup"/>
+			<attributevalue value="row"/>
+			<attributevalue value="rowgroup"/>
+		</attribute>
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="width" type="property" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="thead" description="Groups the header content in a table." info="http://www.w3schools.com/html5/tag_thead.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="right"/>
+			<attributevalue value="left"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+	</tag>
+	<tag name="time" description="Defines a date/time. New in HTML5." info="http://www.w3schools.com/html5/tag_time.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="datetime" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="pubdate" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="pubdate"/>
+		</attribute>
+	</tag>
+	<tag name="title" description="Defines a title for the document." info="http://www.w3schools.com/html5/tag_title.asp" deprecated="false" blocklevel="false" void="false" html5events="false" html5global="true"></tag>
+	<tag name="tr" description="Defines a row in a table." info="http://www.w3schools.com/html5/tag_tr.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true">
+		<attribute name="valign" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="top"/>
+			<attributevalue value="middle"/>
+			<attributevalue value="bottom"/>
+			<attributevalue value="baseline"/>
+		</attribute>
+		<attribute name="char" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="charoff" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="align" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="right"/>
+			<attributevalue value="left"/>
+			<attributevalue value="center"/>
+			<attributevalue value="justify"/>
+			<attributevalue value="char"/>
+		</attribute>
+	</tag>
+	<tag name="track" description="Defines text tracks for media elements (&ltvideo&gt; and &lt;audio&gt;). New in HTML5." info="http://www.w3schools.com/html5/tag_track.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true">
+		<attribute name="default" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="default"/>
+		</attribute>
+		<attribute name="kind" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="captions"/>
+			<attributevalue value="chapters"/>
+			<attributevalue value="descriptions"/>
+			<attributevalue value="metadata"/>
+			<attributevalue value="subtitles"/>
+		</attribute>
+		<attribute name="label" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="true"></attribute>
+		<attribute name="srclang" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="$lang"/>
+		</attribute>
+	</tag>
+	<tag name="tt" description="Defines teletype text. Unsupported in HTML5." info="http://www.w3schools.com/html5/tag_tt.asp" deprecated="true" blocklevel="false" void="false" html5events="false" html5global="false">
+		<attribute name="class" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="dir" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="rtl"/>
+			<attributevalue value="ltr"/>
+		</attribute>
+		<attribute name="id" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="style" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="title" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="xml:lang" type="property" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="ondblclick" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousedown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmousemove" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseout" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseover" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onmouseup" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeydown" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeypress" type="event" deprecated="true" mandatory="false"></attribute>
+		<attribute name="onkeyup" type="event" deprecated="true" mandatory="false"></attribute>
+	</tag>
+	<tag name="u" description="Defines text that should be stylistically different from normal text. Deprecated in HTML 4.01; Redefined in HTML5." info="http://www.w3schools.com/html5/tag_u.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="ul" description="Defines an unordered list" info="http://www.w3schools.com/html5/tag_ul.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="compact" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="compact"/>
+		</attribute>
+		<attribute name="type" type="property" deprecated="true" mandatory="false">
+			<attributevalue value="disc"/>
+			<attributevalue value="square"/>
+			<attributevalue value="circle"/>
+		</attribute>
+	</tag>
+	<tag name="var" description="Defines a variable." info="http://www.w3schools.com/html5/tag_phrase_elements.asp" deprecated="false" blocklevel="false" void="false" html5events="true" html5global="true"></tag>
+	<tag name="video" description="Defines a video or movie. New in HTML5." info="http://www.w3schools.com/html5/tag_video.asp" deprecated="false" blocklevel="true" void="false" html5events="true" html5global="true">
+		<attribute name="autoplay" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="autoplay"/>
+		</attribute>
+		<attribute name="controls" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="controls"/>
+		</attribute>
+		<attribute name="height" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="loop" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="loop"/>
+		</attribute>
+		<attribute name="muted" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="muted"/>
+		</attribute>
+		<attribute name="poster" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="preload" type="property" deprecated="false" mandatory="false">
+			<attributevalue value="auto"/>
+			<attributevalue value="metadata"/>
+			<attributevalue value="none"/>
+		</attribute>
+		<attribute name="src" type="property" deprecated="false" mandatory="false"></attribute>
+		<attribute name="width" type="property" deprecated="false" mandatory="false"></attribute>
+	</tag>
+	<tag name="wbr" description="Defines a possible line-break. New in HTML5." info="http://www.w3schools.com/html5/tag_wbr.asp" deprecated="false" blocklevel="false" void="true" html5events="true" html5global="true"></tag>
+</tags>
